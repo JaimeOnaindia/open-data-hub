@@ -89,6 +89,9 @@ siguen activas como **alias deprecados** (se eliminarán en v2).
 | `GET /api/v1/datasets/{cc}/{dataset}/views` | Vistas disponibles de un dataset. |
 | `GET /api/v1/datasets/{cc}/{dataset}/views/{view}?nult=N` | Datos tidy de la vista. |
 
+Los tipos del frontend se generan desde el OpenAPI del backend (`frontend/src/api/schema.ts`):
+ejecuta `make types` tras cambiar cualquier modelo/endpoint. CI falla si quedan desincronizados.
+
 ## Fuentes de datos actuales
 
 ### 🇪🇸 España — INE

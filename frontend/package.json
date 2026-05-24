@@ -10,6 +10,7 @@
     "lint": "eslint . --quiet",
     "test": "vitest",
     "test:run": "vitest run",
+    "gen:types": "openapi-typescript openapi.json -o src/api/schema.ts",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.16",
     "jsdom": "^25.0.1",
+    "openapi-typescript": "^7.4.4",
     "typescript": "^5.7.2",
     "vite": "^6.0.0",
     "vitest": "^3.2.4"

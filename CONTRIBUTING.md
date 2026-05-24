@@ -95,9 +95,12 @@ La API y el frontend recogen el nuevo proveedor **automáticamente** desde el ca
 - Type hints obligatorios en toda función pública.
 
 **Frontend (TypeScript):**
-- Migración a TS en curso. Nuevos archivos en `.ts`/`.tsx`.
+- TS estricto. Nuevos archivos en `.ts`/`.tsx`.
 - `eslint` recomendado + `@typescript-eslint`.
 - React 18 con hooks. Sin clases.
+- Los tipos del contrato API (`src/api/schema.ts`) se **generan** desde el OpenAPI del backend.
+  No los edites a mano: tras cambiar un modelo o endpoint ejecuta `make types` y commitea
+  `frontend/openapi.json` + `frontend/src/api/schema.ts`. CI verifica que no haya drift.
 
 ## Tests
 

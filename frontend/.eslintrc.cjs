@@ -10,7 +10,14 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   plugins: ["@typescript-eslint", "react-refresh"],
-  ignorePatterns: ["dist/", "node_modules/", "vite.config.ts", "vitest.config.ts", ".eslintrc.cjs"],
+  ignorePatterns: [
+    "dist/",
+    "node_modules/",
+    "vite.config.ts",
+    "vitest.config.ts",
+    ".eslintrc.cjs",
+    "src/api/schema.ts",
+  ],
   rules: {
     "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
     "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
