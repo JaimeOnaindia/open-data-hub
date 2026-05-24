@@ -36,18 +36,21 @@ def test_ingest_view_persists_and_records_source(
 
 @respx.mock
 def test_ingest_all_covers_every_registered_view(tmp_path: Path) -> None:
-    # Respuestas vacías de ambas fuentes: nos interesa que TODA vista registrada se ingeste.
+    # Respuestas vacías de las tres fuentes: nos interesa que TODA vista registrada se ingeste.
     respx.route(host="servicios.ine.es").mock(return_value=httpx.Response(200, json=[]))
     respx.route(host="ec.europa.eu").mock(
         return_value=httpx.Response(
             200, json={"id": [], "size": [], "dimension": {}, "value": {}}
         )
     )
+    respx.route(host="api.worldbank.org").mock(
+        return_value=httpx.Response(200, json=[{"page": 1, "pages": 1, "total": 0}, []])
+    )
 
     results = ingest_all(nult=3, base=tmp_path)
 
-    assert len(results) >= 11  # 9 vistas ES + 2 EU
+    assert len(results) >= 14  # 9 vistas ES + 2 EU + 3 WB
     for country_code, dataset_key, view_key, _rows in results:
         assert storage.read_view(country_code, dataset_key, view_key, base=tmp_path) is not None
         meta = storage.read_meta(country_code, dataset_key, view_key, base=tmp_path)
-        assert meta is not None and meta["source"] in {"INE", "Eurostat"}
+        assert meta is not None and meta["source"] in {"INE", "Eurostat", "World Bank"}

@@ -143,6 +143,19 @@ API de difusión (JSON-stat 2.0): `https://ec.europa.eu/eurostat/api/disseminati
 
 El parser `parse_jsonstat` es reutilizable para cualquier fuente JSON-stat 2.0 (PxStat, CSO Irlanda, SSB Noruega…).
 
+### 🌍 Banco Mundial — World Development Indicators
+
+API JSON: `https://api.worldbank.org/v2/country/all/indicator/{indicator}`
+
+| Dataset | Indicador | Fuente |
+|---------|-----------|--------|
+| Mercado laboral | `SL.UEM.TOTL.ZS` | Tasa de paro por país (estimación OIT) |
+| Precios | `FP.CPI.TOTL.ZG` | Inflación IPC anual por país |
+| Economía | `NY.GDP.PCAP.CD` | PIB per cápita (US$) por país |
+
+`country.id` es ISO 3166-1 alpha-2; los agregados (mundo, UE, regiones) se descartan con
+`harmonize.geo.is_iso2_country`. Esto permite **relacionar Banco Mundial con Eurostat por ISO**.
+
 ## Cómo contribuir
 
 Lee [CONTRIBUTING.md](CONTRIBUTING.md). Resumen para añadir un país:
@@ -164,7 +177,7 @@ Visión: catálogo federado de datos públicos abiertos, multi-país, con UI com
 - **Fase 0 — Fundamentos** ✅ git, CI, CONTRIBUTING, ADRs.
 - **Fase 1 — Cinturón de seguridad** ✅ tests con respx + fixtures reales (96% cobertura), pre-commit.
 - **Fase 2 — Plataforma** 🚧 frontend TS + router + Recharts ✅; i18n es/en (API `?lang=` + toggle) ✅; pendiente API `/api/v1/`, caché persistente con snapshots fallback.
-- **Fase 3 — Expansión** 🚧 Eurostat (multi-país, JSON-stat) ✅; persistencia parquet + ingesta propia ✅; armonización país→ISO + DuckDB para relacionar fuentes ✅; pendiente Francia (INSEE), Portugal (INE-PT), OECD / World Bank, mapas, atribución y licencias.
+- **Fase 3 — Expansión** 🚧 Eurostat + Banco Mundial (multi-país) ✅; persistencia parquet + ingesta propia ✅; armonización país→ISO + DuckDB relacionando fuentes (Eurostat vs Banco Mundial) ✅; pendiente Francia (INSEE), Portugal (INE-PT), OECD, mapas, atribución y licencias.
 
 Detalle en [docs/adr/](docs/adr/).
 

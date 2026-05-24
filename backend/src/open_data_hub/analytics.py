@@ -39,3 +39,29 @@ def relate_eu_indicators(*, base: Path | None = None) -> pd.DataFrame:
     finally:
         con.close()
     return result
+
+
+def relate_unemployment_sources(*, base: Path | None = None) -> pd.DataFrame:
+    """Relaciona la MISMA métrica (paro) entre dos FUENTES distintas —Eurostat y Banco
+    Mundial— por país (ISO) y año. Demuestra unir fuentes independientes por la dimensión
+    canónica. Columnas: iso, year, eurostat, world_bank."""
+    eurostat = storage.view_path("eu", "labor", "unemployment-rate", base=base)
+    world_bank = storage.view_path("wb", "labor", "unemployment-rate", base=base)
+    if not eurostat.exists() or not world_bank.exists():
+        return pd.DataFrame(columns=["iso", "year", "eurostat", "world_bank"])
+
+    con = duckdb.connect(":memory:")
+    try:
+        result: pd.DataFrame = con.execute(
+            """
+            SELECT e.iso, e.year, e.value AS eurostat, w.value AS world_bank
+            FROM read_parquet(?) AS e
+            JOIN read_parquet(?) AS w USING (iso, year)
+            WHERE e.iso IS NOT NULL
+            ORDER BY e.iso, e.year
+            """,
+            [str(eurostat), str(world_bank)],
+        ).df()
+    finally:
+        con.close()
+    return result

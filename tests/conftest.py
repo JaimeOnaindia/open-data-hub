@@ -49,3 +49,8 @@ def eurostat_unemployment() -> dict[str, Any]:
 @pytest.fixture
 def eurostat_hicp() -> dict[str, Any]:
     return load_fixture("eurostat/hicp_prc_hicp_aind.json")
+
+
+@pytest.fixture
+def worldbank_unemployment() -> list[Any]:
+    return load_fixture("worldbank/unemployment_ESP_DEU_FRA_agg.json")

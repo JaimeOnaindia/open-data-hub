@@ -145,6 +145,29 @@ def test_catalog_includes_eurostat_provider(client: TestClient) -> None:
     assert {"labor", "prices"} <= keys
 
 
+def test_catalog_includes_world_bank_provider(client: TestClient) -> None:
+    response = client.get("/api/v1/countries")
+    wb = next(c for c in response.json() if c["code"] == "wb")
+    assert wb["flag"] == "🌍"
+    keys = {d["key"] for d in wb["datasets"]}
+    assert {"labor", "prices", "economy"} <= keys
+
+
+@respx.mock
+def test_world_bank_view_returns_records(
+    client: TestClient, worldbank_unemployment: list[Any]
+) -> None:
+    respx.get("https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS").mock(
+        return_value=httpx.Response(200, json=worldbank_unemployment)
+    )
+    response = client.get("/api/v1/datasets/wb/labor/views/unemployment-rate?nult=5")
+    assert response.status_code == 200
+    records = response.json()["records"]
+    assert len(records) > 0
+    assert {"country", "iso", "year", "value"} <= set(records[0].keys())
+    assert any(r["iso"] == "ES" for r in records)
+
+
 @respx.mock
 def test_eu_unemployment_view_returns_records(
     client: TestClient, eurostat_unemployment: dict[str, Any]
