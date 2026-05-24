@@ -13,6 +13,7 @@ from fastapi.testclient import TestClient
 from open_data_hub.api import _load_dataset_view, app
 
 BASE = "https://servicios.ine.es/wstempus/js/ES"
+EUROSTAT_BASE = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data"
 
 
 @pytest.fixture
@@ -129,3 +130,28 @@ def test_legacy_list_crime_views(client: TestClient) -> None:
     assert response.status_code == 200
     keys = {v["key"] for v in response.json()}
     assert "offenses-by-type" in keys
+
+
+def test_catalog_includes_eurostat_provider(client: TestClient) -> None:
+    response = client.get("/api/countries")
+    assert response.status_code == 200
+    eu = next(c for c in response.json() if c["code"] == "eu")
+    assert eu["flag"] == "🇪🇺"
+    keys = {d["key"] for d in eu["datasets"]}
+    assert {"labor", "prices"} <= keys
+
+
+@respx.mock
+def test_eu_unemployment_view_returns_records(
+    client: TestClient, eurostat_unemployment: dict[str, Any]
+) -> None:
+    respx.get(f"{EUROSTAT_BASE}/une_rt_a").mock(
+        return_value=httpx.Response(200, json=eurostat_unemployment)
+    )
+    response = client.get("/api/datasets/eu/labor/views/unemployment-rate?nult=6")
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["view"]["category_col"] == "country"
+    records = payload["records"]
+    assert len(records) > 0
+    assert {"country", "year", "value"} <= set(records[0].keys())

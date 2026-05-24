@@ -67,20 +67,23 @@ pre-commit install
 Convención: códigos ISO 3166-1 alpha-2 en minúsculas (`es`, `fr`, `pt`, `de`, …).
 
 1. Crea la carpeta `backend/src/open_data_hub/countries/<cc>/sources/`.
-2. Implementa un **cliente HTTP** para la API oficial (ejemplo: `ine_client.py` para España). Debe usar `httpx` + `tenacity` para reintentos.
+2. Implementa un **cliente HTTP** para la API oficial (ejemplos: `ine_client.py` para España, `eurostat_client.py` para Eurostat). Debe usar `httpx` + `tenacity` para reintentos. Si la fuente sirve **JSON-stat 2.0** (Eurostat, PxStat, CSO Irlanda, SSB Noruega…), reutiliza `parse_jsonstat`.
 3. Implementa funciones `fetch_*` que devuelvan `pandas.DataFrame` **tidy** con como mínimo las columnas:
    - `year: int`
    - `value: float`
    - una o más columnas de dimensión (territorio, sexo, edad, categoría…).
-4. Registra el país en `backend/src/open_data_hub/core/registry.py` añadiendo una entrada a `COUNTRIES`.
-5. Crea las `DatasetViewConfig` en un nuevo `countries/<cc>/sources/<cc>_datasets.py` y regístralo en `api.py:DATASET_VIEWS_BY_COUNTRY`.
-6. Añade tests con `respx` mockeando la API oficial. Incluye al menos un fixture real (ver `tests/fixtures/`).
-7. Actualiza el README con la fuente y enlace al catálogo.
+4. Crea las `DatasetViewConfig` en `countries/<cc>/sources/<cc>_datasets.py`.
+5. En `countries/<cc>/__init__.py` expón dos símbolos: `COUNTRY` (un `CountryConfig`) y `VIEWS` (el dict de views).
+6. Registra el proveedor en `countries/catalog.py`: importa `COUNTRY`/`VIEWS` y añade la tupla a `_PROVIDERS`. **Es la única edición en código compartido** → sin conflictos con otros países.
+7. Añade tests con `respx` mockeando la API oficial. Incluye al menos un fixture real (ver `tests/fixtures/`).
+8. Actualiza el README con la fuente y enlace al catálogo.
+
+La API y el frontend recogen el nuevo proveedor **automáticamente** desde el catálogo; no hay que tocar `api.py` ni el frontend.
 
 ## Añadir un dataset a un país existente
 
 1. Añade el fetcher en el módulo `sources/` correspondiente.
-2. Registra el `DatasetConfig` en `COUNTRIES` y la `DatasetViewConfig` en el archivo de views del país.
+2. Añade el `DatasetConfig` a `COUNTRY.datasets` (en `countries/<cc>/__init__.py`) y la `DatasetViewConfig` al dict `VIEWS` del país.
 3. Tests + fixture.
 
 ## Estilo de código

@@ -18,16 +18,21 @@ Plataforma colaborativa **multi-país** de datos públicos abiertos. Cada país 
 
 ```
 backend/src/open_data_hub/
-├── api.py                       # FastAPI app + endpoints JSON
-├── core/                        # registry + tipos compartidos entre países
+├── api.py                       # FastAPI app + endpoints JSON (agnóstico de país)
+├── core/                        # tipos compartidos entre proveedores
 │   ├── datasets.py              # DatasetViewConfig (contrato común)
-│   └── registry.py              # COUNTRIES (metadata)
+│   └── registry.py              # modelos CountryConfig / DatasetConfig
 └── countries/
-    ├── es/                      # 🇪🇸 España
+    ├── catalog.py               # _PROVIDERS → COUNTRIES + DATASET_VIEWS_BY_COUNTRY
+    ├── es/                      # 🇪🇸 España (INE) — expone COUNTRY + VIEWS
     │   └── sources/
     │       ├── ine_client.py    # cliente tempus3 del INE
     │       ├── crime.py         # criminalidad
     │       └── ine_datasets.py  # IPC, paro, demografía + ES_DATASET_VIEWS
+    ├── eu/                      # 🇪🇺 Eurostat (multi-país, JSON-stat 2.0)
+    │   └── sources/
+    │       ├── eurostat_client.py    # cliente + parse_jsonstat (reutilizable)
+    │       └── eurostat_datasets.py  # paro + IPCA por país + EU_DATASET_VIEWS
     └── ...                      # añade tu país aquí
 
 frontend/
@@ -95,15 +100,28 @@ API tempus3: `https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/{id}`
 | Mercado laboral | 74999 | Tasas de paro por edad/sexo/CCAA |
 | Demografía | 73559, 73758 | Esperanza de vida + fenómenos demográficos |
 
+### 🇪🇺 Unión Europea — Eurostat
+
+API de difusión (JSON-stat 2.0): `https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/{dataset}`
+
+| Dataset | Código Eurostat | Fuente |
+|---------|-----------------|--------|
+| Mercado laboral | `une_rt_a` | Tasa de paro anual comparada por país |
+| Precios | `prc_hicp_aind` | IPCA — variación anual media por país |
+
+El parser `parse_jsonstat` es reutilizable para cualquier fuente JSON-stat 2.0 (PxStat, CSO Irlanda, SSB Noruega…).
+
 ## Cómo contribuir
 
 Lee [CONTRIBUTING.md](CONTRIBUTING.md). Resumen para añadir un país:
 
-1. `backend/src/open_data_hub/countries/<cc>/sources/` con cliente HTTP + fetchers.
-2. Registrar en `core/registry.py:COUNTRIES`.
-3. `DatasetViewConfig` en `<cc>_datasets.py`; registrar en `api.py:DATASET_VIEWS_BY_COUNTRY`.
+1. `backend/src/open_data_hub/countries/<cc>/sources/` con cliente HTTP + fetchers tidy.
+2. `countries/<cc>/__init__.py` expone `COUNTRY` (CountryConfig) y `VIEWS`.
+3. Registra el proveedor en `countries/catalog.py` (`_PROVIDERS`) — única edición en código compartido.
 4. Tests con `respx` + fixtures reales.
 5. PR siguiendo la plantilla.
+
+La API y el frontend recogen el proveedor automáticamente desde el catálogo.
 
 Buenos primeros issues: [`good first issue`](https://github.com/JaimeOnaindia/open-data-hub/labels/good%20first%20issue) (nuevo país, nuevo dataset).
 
@@ -114,7 +132,7 @@ Visión: catálogo federado de datos públicos abiertos, multi-país, con UI com
 - **Fase 0 — Fundamentos** ✅ git, CI, CONTRIBUTING, ADRs.
 - **Fase 1 — Cinturón de seguridad** ✅ tests con respx + fixtures reales (96% cobertura), pre-commit.
 - **Fase 2 — Plataforma** 🚧 frontend TS + router + Recharts ✅; pendiente API `/api/v1/`, i18n, caché persistente con snapshots fallback.
-- **Fase 3 — Expansión**: Francia (INSEE), Portugal (INE-PT), Eurostat / OECD / World Bank, mapas, atribución y licencias en cada respuesta.
+- **Fase 3 — Expansión** 🚧 Eurostat (multi-país, JSON-stat) ✅; pendiente Francia (INSEE), Portugal (INE-PT), OECD / World Bank, mapas, atribución y licencias en cada respuesta.
 
 Detalle en [docs/adr/](docs/adr/).
 
@@ -122,6 +140,7 @@ Detalle en [docs/adr/](docs/adr/).
 
 - [ADR-0001: Arquitectura base — FastAPI + React + módulos por país](docs/adr/0001-architecture-baseline.md)
 - [ADR-0002: Frontend en TypeScript con router, TanStack Query y Recharts](docs/adr/0002-frontend-typescript.md)
+- [ADR-0003: Fuentes multilaterales y registro de proveedores en catálogo](docs/adr/0003-multilateral-sources.md)
 
 ## Licencia
 

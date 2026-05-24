@@ -13,9 +13,12 @@ from open_data_hub.core.datasets import CountryDatasetViews
 from open_data_hub.core.registry import CountryConfig
 from open_data_hub.countries.es import COUNTRY as ES_COUNTRY
 from open_data_hub.countries.es import VIEWS as ES_VIEWS
+from open_data_hub.countries.eu import COUNTRY as EU_COUNTRY
+from open_data_hub.countries.eu import VIEWS as EU_VIEWS
 
 _PROVIDERS: list[tuple[CountryConfig, CountryDatasetViews]] = [
     (ES_COUNTRY, ES_VIEWS),
+    (EU_COUNTRY, EU_VIEWS),
 ]
 
 COUNTRIES: dict[str, CountryConfig] = {country.code: country for country, _ in _PROVIDERS}

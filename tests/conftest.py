@@ -31,3 +31,13 @@ def ine_crime_25998() -> list[dict[str, Any]]:
 @pytest.fixture
 def ine_prices_50902() -> list[dict[str, Any]]:
     return load_fixture("ine/consumer_prices_50902.json")
+
+
+@pytest.fixture
+def eurostat_unemployment() -> dict[str, Any]:
+    return load_fixture("eurostat/unemployment_une_rt_a.json")
+
+
+@pytest.fixture
+def eurostat_hicp() -> dict[str, Any]:
+    return load_fixture("eurostat/hicp_prc_hicp_aind.json")
