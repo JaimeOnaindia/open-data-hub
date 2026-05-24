@@ -11,8 +11,8 @@ Plataforma colaborativa **multi-país** de datos públicos abiertos. Cada país 
 ## Stack
 
 - **Backend:** FastAPI + httpx + tenacity + pandas + pydantic v2 (Python 3.11+).
-- **Frontend:** React 18 + Vite (TypeScript en migración).
-- **Calidad:** ruff + mypy strict + pytest + respx + eslint.
+- **Frontend:** React 18 + TypeScript + Vite, react-router, TanStack Query, Recharts.
+- **Calidad:** ruff + mypy strict + pytest + respx + eslint + tsc strict.
 
 ## Estructura
 
@@ -32,7 +32,13 @@ backend/src/open_data_hub/
 
 frontend/
 ├── index.html
-└── src/main.js                  # dashboard React (TS en migración)
+└── src/
+    ├── main.tsx                 # entrypoint: router + QueryClient
+    ├── App.tsx                  # layout + sidebar
+    ├── api/                     # cliente fetch tipado + hooks TanStack Query
+    ├── components/              # TrendChart (Recharts), FilterSelect, Metric, Sidebar
+    ├── lib/transform.ts         # transformaciones puras (filtros, pivot, CSV)
+    └── pages/                   # CatalogPage, DatasetPage
 
 docs/adr/                        # decisiones arquitectónicas
 tests/                           # pytest + respx

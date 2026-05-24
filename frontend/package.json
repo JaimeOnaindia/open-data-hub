@@ -5,40 +5,28 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "typecheck": "tsc --noEmit --allowJs --checkJs --moduleResolution bundler --module ESNext --target ES2022 --lib DOM,DOM.Iterable,ES2022 src/main.js",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
     "lint": "eslint . --quiet",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.62.7",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^3.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.57.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
     "typescript": "^5.7.2",
     "vite": "^6.0.0"
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "es2022": true
-    },
-    "extends": [
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      },
-      "ecmaVersion": "latest",
-      "sourceType": "module"
-    },
-    "ignorePatterns": [
-      "dist/",
-      "node_modules/"
-    ]
   }
 }
