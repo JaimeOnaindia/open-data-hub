@@ -3,7 +3,7 @@ UVICORN ?= .venv/bin/uvicorn
 NPM ?= npm
 BACKEND_SRC ?= backend/src
 
-.PHONY: install install-api install-front api front check check-api check-front build openapi types
+.PHONY: install install-api install-front api front check check-api check-front build openapi types ingest
 
 install: install-api install-front
 
@@ -40,3 +40,6 @@ openapi:
 
 types: openapi
 	$(NPM) --prefix frontend run gen:types
+
+ingest:
+	PYTHONPATH=$(BACKEND_SRC) $(PYTHON) backend/scripts/ingest.py

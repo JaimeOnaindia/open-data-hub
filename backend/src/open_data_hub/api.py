@@ -15,6 +15,7 @@ from open_data_hub.core.datasets import (
     DatasetViewSummary,
 )
 from open_data_hub.core.i18n import normalize_lang, resolve
+from open_data_hub.core.storage import read_view
 from open_data_hub.countries.catalog import COUNTRIES, DATASET_VIEWS_BY_COUNTRY
 
 
@@ -212,7 +213,20 @@ def _load_dataset_view(
     view_key: str,
     nult: int,
 ) -> pd.DataFrame:
-    return _get_dataset_view(country_code, dataset_key, view_key).fetcher(nult=nult)
+    """Sirve la vista desde el almacén persistido; si aún no se ha ingestado, en vivo."""
+    df = read_view(country_code, dataset_key, view_key)
+    if df is None:
+        df = _get_dataset_view(country_code, dataset_key, view_key).fetcher(nult=nult)
+    return _last_n_years(df, nult)
+
+
+def _last_n_years(df: pd.DataFrame, nult: int) -> pd.DataFrame:
+    """Recorta a los últimos `nult` años distintos (equivalente a `nult` sobre el almacén)."""
+    if df.empty or "year" not in df.columns:
+        return df
+    years = sorted(int(y) for y in df["year"].dropna().unique())
+    keep = set(years[-nult:])
+    return df[df["year"].isin(keep)]
 
 
 def _frame_to_records(df: pd.DataFrame) -> list[dict[str, Any]]:

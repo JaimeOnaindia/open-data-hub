@@ -3,12 +3,20 @@
 from __future__ import annotations
 
 import json
+from collections.abc import Iterator
 from pathlib import Path
 from typing import Any
 
 import pytest
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
+
+
+@pytest.fixture(autouse=True)
+def _isolated_snapshot_dir(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Iterator[None]:
+    """Aísla el almacén parquet en un dir temporal por test (evita leer snapshots reales)."""
+    monkeypatch.setenv("OPEN_DATA_HUB_DATA_DIR", str(tmp_path / "snapshots"))
+    yield
 
 
 def load_fixture(relative_path: str) -> Any:

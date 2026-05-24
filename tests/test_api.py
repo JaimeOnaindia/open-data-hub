@@ -6,11 +6,13 @@ from collections.abc import Iterator
 from typing import Any
 
 import httpx
+import pandas as pd
 import pytest
 import respx
 from fastapi.testclient import TestClient
 
 from open_data_hub.api import _load_dataset_view, app
+from open_data_hub.core import storage
 
 BASE = "https://servicios.ine.es/wstempus/js/ES"
 EUROSTAT_BASE = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data"
@@ -223,3 +225,22 @@ def test_openapi_marks_legacy_deprecated_not_v1() -> None:
     paths = app.openapi()["paths"]
     assert paths["/api/countries"]["get"]["deprecated"] is True
     assert paths["/api/v1/countries"]["get"].get("deprecated", False) is False
+
+
+def test_serves_from_snapshot_without_hitting_source(client: TestClient) -> None:
+    # Persistimos un snapshot y comprobamos que la API lo sirve sin red (sin respx mock).
+    df = pd.DataFrame(
+        {
+            "scope": ["Total", "Total"],
+            "metric": ["Dato base", "Dato base"],
+            "offense_type": ["Robo", "Hurto"],
+            "year": [2024, 2024],
+            "value": [10.0, 20.0],
+        }
+    )
+    storage.write_view("es", "crime", "offenses-by-type", df, source="INE")
+
+    response = client.get("/api/v1/datasets/es/crime/views/offenses-by-type?nult=5")
+    assert response.status_code == 200
+    records = response.json()["records"]
+    assert {r["offense_type"] for r in records} == {"Robo", "Hurto"}

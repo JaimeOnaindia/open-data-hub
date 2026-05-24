@@ -92,6 +92,22 @@ siguen activas como **alias deprecados** (se eliminarán en v2).
 Los tipos del frontend se generan desde el OpenAPI del backend (`frontend/src/api/schema.ts`):
 ejecuta `make types` tras cambiar cualquier modelo/endpoint. CI falla si quedan desincronizados.
 
+## Persistencia de datos
+
+La API **no llama a las fuentes oficiales en cada petición**: sirve desde snapshots propios.
+
+- **Ingesta** (`make ingest`): recorre el catálogo, reutiliza los mismos `fetch_*` y guarda
+  cada vista en `data/snapshots/<cc>/<dataset>/<view>.parquet` con un sidecar `.meta.json`
+  de procedencia (`source`, `fetched_at`, filas). Hace peticiones en vivo → se corre a mano
+  o por cron, nunca en tests/CI.
+- **Servicio**: la API lee el parquet (`core/storage.py`) y filtra los últimos `nult` años.
+  Si una vista aún no se ha ingestado, cae a la fuente en vivo (cómodo en desarrollo).
+- **Resiliencia**: si el INE/Eurostat cae o cambia formato, la ingesta falla pero la web
+  sigue sirviendo el último snapshot bueno.
+
+`data/snapshots/` está en `.gitignore` (no versionamos datos). Almacenamiento elegido:
+parquet por simplicidad; el grano tidy alimenta directamente un futuro modelo relacional/warehouse.
+
 ## Fuentes de datos actuales
 
 ### 🇪🇸 España — INE
@@ -137,7 +153,7 @@ Visión: catálogo federado de datos públicos abiertos, multi-país, con UI com
 - **Fase 0 — Fundamentos** ✅ git, CI, CONTRIBUTING, ADRs.
 - **Fase 1 — Cinturón de seguridad** ✅ tests con respx + fixtures reales (96% cobertura), pre-commit.
 - **Fase 2 — Plataforma** 🚧 frontend TS + router + Recharts ✅; i18n es/en (API `?lang=` + toggle) ✅; pendiente API `/api/v1/`, caché persistente con snapshots fallback.
-- **Fase 3 — Expansión** 🚧 Eurostat (multi-país, JSON-stat) ✅; pendiente Francia (INSEE), Portugal (INE-PT), OECD / World Bank, mapas, atribución y licencias en cada respuesta.
+- **Fase 3 — Expansión** 🚧 Eurostat (multi-país, JSON-stat) ✅; persistencia parquet + ingesta propia ✅; pendiente Francia (INSEE), Portugal (INE-PT), OECD / World Bank, mapas, atribución y licencias en cada respuesta.
 
 Detalle en [docs/adr/](docs/adr/).
 
