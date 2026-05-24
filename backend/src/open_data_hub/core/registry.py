@@ -2,11 +2,13 @@ from __future__ import annotations
 
 from pydantic import BaseModel, Field
 
+from open_data_hub.core.i18n import Localizable
+
 
 class DatasetConfig(BaseModel):
     key: str = Field(description="Slug interno, ej. 'crime'")
-    label: str = Field(description="Etiqueta visible en la UI")
-    description: str
+    label: Localizable = Field(description="Etiqueta visible en la UI (str o {es, en})")
+    description: Localizable
     source_name: str = Field(description="Organismo oficial: INE, DGT, Eurostat, …")
 
 
@@ -17,7 +19,7 @@ class CountryConfig(BaseModel):
     """
 
     code: str = Field(min_length=2, max_length=2, description="ISO 3166-1 alpha-2 en minúsculas")
-    name: str
+    name: Localizable
     flag: str = Field(description="Emoji de la bandera")
     datasets: list[DatasetConfig]
 

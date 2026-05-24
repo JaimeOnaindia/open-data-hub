@@ -155,3 +155,29 @@ def test_eu_unemployment_view_returns_records(
     records = payload["records"]
     assert len(records) > 0
     assert {"country", "year", "value"} <= set(records[0].keys())
+
+
+def test_countries_default_locale_is_spanish(client: TestClient) -> None:
+    es = next(c for c in client.get("/api/countries").json() if c["code"] == "es")
+    assert es["name"] == "España"
+    crime = next(d for d in es["datasets"] if d["key"] == "crime")
+    assert crime["label"] == "Criminalidad"
+
+
+def test_countries_localized_to_english(client: TestClient) -> None:
+    es = next(c for c in client.get("/api/countries?lang=en").json() if c["code"] == "es")
+    assert es["name"] == "Spain"
+    crime = next(d for d in es["datasets"] if d["key"] == "crime")
+    assert crime["label"] == "Crime"
+
+
+def test_views_localized_to_english(client: TestClient) -> None:
+    views = client.get("/api/datasets/es/crime/views?lang=en").json()
+    by_type = next(v for v in views if v["key"] == "offenses-by-type")
+    assert by_type["label"] == "Offences by type"
+    assert by_type["category_label"] == "Offence type"
+
+
+def test_unknown_lang_falls_back_to_spanish(client: TestClient) -> None:
+    es = next(c for c in client.get("/api/countries?lang=fr").json() if c["code"] == "es")
+    assert es["name"] == "España"

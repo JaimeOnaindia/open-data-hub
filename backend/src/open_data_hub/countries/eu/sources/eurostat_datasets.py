@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 
 from open_data_hub.core.datasets import CountryDatasetViews, DatasetViewConfig
+from open_data_hub.core.i18n import L
 from open_data_hub.countries.eu.sources.eurostat_client import EurostatClient
 
 # (código del dataset Eurostat, filtros fijos que dejan variar geo y time)
@@ -43,20 +44,20 @@ EU_DATASET_VIEWS: CountryDatasetViews = {
     "labor": {
         "unemployment-rate": DatasetViewConfig(
             key="unemployment-rate",
-            label="Tasa de paro por país",
+            label=L("Tasa de paro por país", "Unemployment rate by country"),
             fetcher=fetch_unemployment,
             category_col="country",
-            category_label="País",
+            category_label=L("País", "Country"),
             filter_cols=(),
         ),
     },
     "prices": {
         "hicp-annual": DatasetViewConfig(
             key="hicp-annual",
-            label="IPCA — variación anual por país",
+            label=L("IPCA — variación anual por país", "HICP — annual change by country"),
             fetcher=fetch_hicp,
             category_col="country",
-            category_label="País",
+            category_label=L("País", "Country"),
             filter_cols=(),
         ),
     },

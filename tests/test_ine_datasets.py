@@ -6,6 +6,7 @@ import httpx
 import pytest
 import respx
 
+from open_data_hub.core.i18n import resolve
 from open_data_hub.countries.catalog import COUNTRIES, get_country
 from open_data_hub.countries.es.sources.ine_datasets import (
     INE_TABLES,
@@ -30,7 +31,9 @@ def test_get_country_unknown_raises() -> None:
 
 def test_country_dataset_lookup() -> None:
     es = COUNTRIES["es"]
-    assert es.dataset("crime").label == "Criminalidad"
+    crime = es.dataset("crime")
+    assert resolve(crime.label, "es") == "Criminalidad"
+    assert resolve(crime.label, "en") == "Crime"
     with pytest.raises(KeyError, match="Dataset 'nope'"):
         es.dataset("nope")
 

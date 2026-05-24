@@ -14,6 +14,7 @@ from open_data_hub.core.datasets import (
     DatasetViews,
     DatasetViewSummary,
 )
+from open_data_hub.core.i18n import normalize_lang, resolve
 from open_data_hub.countries.catalog import COUNTRIES, DATASET_VIEWS_BY_COUNTRY
 
 
@@ -60,17 +61,18 @@ def health() -> dict[str, str]:
 
 
 @app.get("/api/countries")
-def list_countries() -> list[CountrySummary]:
+def list_countries(lang: str = Query(default="es")) -> list[CountrySummary]:
+    locale = normalize_lang(lang)
     return [
         CountrySummary(
             code=country.code,
-            name=country.name,
+            name=resolve(country.name, locale),
             flag=country.flag,
             datasets=[
                 DatasetSummary(
                     key=dataset.key,
-                    label=dataset.label,
-                    description=dataset.description,
+                    label=resolve(dataset.label, locale),
+                    description=resolve(dataset.description, locale),
                     source_name=dataset.source_name,
                 )
                 for dataset in country.datasets
@@ -81,15 +83,16 @@ def list_countries() -> list[CountrySummary]:
 
 
 @app.get("/api/datasets")
-def list_datasets() -> list[DatasetIndexItem]:
+def list_datasets(lang: str = Query(default="es")) -> list[DatasetIndexItem]:
+    locale = normalize_lang(lang)
     return [
         DatasetIndexItem(
             country_code=country.code,
-            country_name=country.name,
+            country_name=resolve(country.name, locale),
             country_flag=country.flag,
             key=dataset.key,
-            label=dataset.label,
-            description=dataset.description,
+            label=resolve(dataset.label, locale),
+            description=resolve(dataset.description, locale),
             source_name=dataset.source_name,
         )
         for country in COUNTRIES.values()
@@ -98,8 +101,13 @@ def list_datasets() -> list[DatasetIndexItem]:
 
 
 @app.get("/api/datasets/{country_code}/{dataset_key}/views")
-def list_dataset_views(country_code: str, dataset_key: str) -> list[DatasetViewSummary]:
-    return [view.summary() for view in _get_dataset_views(country_code, dataset_key).values()]
+def list_dataset_views(
+    country_code: str, dataset_key: str, lang: str = Query(default="es")
+) -> list[DatasetViewSummary]:
+    locale = normalize_lang(lang)
+    return [
+        view.summary(locale) for view in _get_dataset_views(country_code, dataset_key).values()
+    ]
 
 
 @app.get("/api/datasets/{country_code}/{dataset_key}/views/{view_key}")
@@ -108,23 +116,25 @@ def get_dataset_view(
     dataset_key: str,
     view_key: str,
     nult: int = Query(default=10, ge=2, le=20),
+    lang: str = Query(default="es"),
 ) -> DatasetTablePayload:
     view = _get_dataset_view(country_code, dataset_key, view_key)
     records = _frame_to_records(_load_dataset_view(country_code, dataset_key, view.key, nult))
-    return DatasetTablePayload(view=view.summary(), records=records)
+    return DatasetTablePayload(view=view.summary(normalize_lang(lang)), records=records)
 
 
 @app.get("/api/crime/views")
-def list_crime_views() -> list[CrimeViewSummary]:
-    return list_dataset_views("es", "crime")
+def list_crime_views(lang: str = Query(default="es")) -> list[CrimeViewSummary]:
+    return list_dataset_views("es", "crime", lang)
 
 
 @app.get("/api/crime/views/{view_key}")
 def get_crime_view(
     view_key: str,
     nult: int = Query(default=10, ge=2, le=20),
+    lang: str = Query(default="es"),
 ) -> CrimeTablePayload:
-    return get_dataset_view("es", "crime", view_key, nult)
+    return get_dataset_view("es", "crime", view_key, nult, lang)
 
 
 def _get_dataset_views(country_code: str, dataset_key: str) -> DatasetViews:

@@ -5,12 +5,13 @@ from __future__ import annotations
 from fastapi.testclient import TestClient
 
 from open_data_hub.api import app
+from open_data_hub.core.i18n import resolve
 from open_data_hub.countries.catalog import COUNTRIES
 
 
 def test_package_importable() -> None:
     assert "es" in COUNTRIES
-    assert COUNTRIES["es"].name == "España"
+    assert resolve(COUNTRIES["es"].name, "es") == "España"
 
 
 def test_health_endpoint() -> None:
