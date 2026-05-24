@@ -8,15 +8,13 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from open_data_hub.core import COUNTRIES
 from open_data_hub.core.datasets import (
-    CountryDatasetViews,
     DatasetTablePayload,
     DatasetViewConfig,
     DatasetViews,
     DatasetViewSummary,
 )
-from open_data_hub.countries.es.sources.ine_datasets import ES_DATASET_VIEWS
+from open_data_hub.countries.catalog import COUNTRIES, DATASET_VIEWS_BY_COUNTRY
 
 
 class DatasetSummary(BaseModel):
@@ -41,11 +39,6 @@ class DatasetIndexItem(DatasetSummary):
 
 CrimeViewSummary = DatasetViewSummary
 CrimeTablePayload = DatasetTablePayload
-
-
-DATASET_VIEWS_BY_COUNTRY: dict[str, CountryDatasetViews] = {
-    "es": ES_DATASET_VIEWS,
-}
 
 
 app = FastAPI(

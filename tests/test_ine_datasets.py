@@ -6,7 +6,7 @@ import httpx
 import pytest
 import respx
 
-from open_data_hub.core.registry import COUNTRIES, get_country
+from open_data_hub.countries.catalog import COUNTRIES, get_country
 from open_data_hub.countries.es.sources.ine_datasets import (
     INE_TABLES,
     fetch_consumer_prices,

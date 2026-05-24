@@ -5,7 +5,7 @@ from __future__ import annotations
 from fastapi.testclient import TestClient
 
 from open_data_hub.api import app
-from open_data_hub.core.registry import COUNTRIES
+from open_data_hub.countries.catalog import COUNTRIES
 
 
 def test_package_importable() -> None:

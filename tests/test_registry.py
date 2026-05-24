@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from open_data_hub.api import DATASET_VIEWS_BY_COUNTRY
-from open_data_hub.core.registry import COUNTRIES
+from open_data_hub.countries.catalog import COUNTRIES
 
 
 def test_every_country_has_views_registered() -> None:

@@ -1,3 +1,3 @@
-from open_data_hub.core.registry import COUNTRIES, CountryConfig, DatasetConfig, get_country
+from open_data_hub.core.registry import CountryConfig, DatasetConfig
 
-__all__ = ["COUNTRIES", "CountryConfig", "DatasetConfig", "get_country"]
+__all__ = ["CountryConfig", "DatasetConfig"]
