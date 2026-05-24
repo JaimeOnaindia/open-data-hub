@@ -5,6 +5,7 @@ import { useDatasetView, useDatasetViews } from "../api/queries";
 import { FilterSelect } from "../components/FilterSelect";
 import { Metric } from "../components/Metric";
 import { TrendChart } from "../components/TrendChart";
+import { useLang, useT } from "../i18n";
 import {
   buildChart,
   buildFilters,
@@ -14,6 +15,8 @@ import {
 } from "../lib/transform";
 
 export function DatasetPage() {
+  const t = useT();
+  const { lang } = useLang();
   const { countryCode = "", datasetKey = "" } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -27,7 +30,7 @@ export function DatasetPage() {
   const viewQuery = useDatasetView(countryCode, datasetKey, viewKey, years);
   const payload = viewQuery.data;
 
-  const filters = useMemo(() => buildFilters(payload), [payload]);
+  const filters = useMemo(() => buildFilters(payload, lang), [payload, lang]);
   const [filterValues, setFilterValues] = useState<FilterValues>({});
   useEffect(() => {
     setFilterValues(Object.fromEntries(filters.map((filter) => [filter.key, filter.defaults])));
@@ -47,7 +50,11 @@ export function DatasetPage() {
   };
 
   if (viewsQuery.isLoading) {
-    return <section className="content"><div className="status">Cargando vistas…</div></section>;
+    return (
+      <section className="content">
+        <div className="status">{t("dataset.loadingViews")}</div>
+      </section>
+    );
   }
   if (viewsQuery.isError) {
     return (
@@ -61,14 +68,14 @@ export function DatasetPage() {
     <section className="content">
       <div className="topbar">
         <div>
-          <h1>{payload?.view.label ?? "Cargando…"}</h1>
-          <p className="muted">Datos en directo desde la fuente oficial.</p>
+          <h1>{payload?.view.label ?? t("dataset.titleFallback")}</h1>
+          <p className="muted">{t("dataset.subtitle")}</p>
         </div>
       </div>
 
       <div className="toolbar">
         <label>
-          Vista
+          {t("dataset.view")}
           <select
             value={viewKey ?? ""}
             onChange={(event) => updateParam("view", event.target.value)}
@@ -82,7 +89,7 @@ export function DatasetPage() {
         </label>
 
         <label>
-          Años: {years}
+          {t("dataset.years")}: {years}
           <input
             type="range"
             min={2}
@@ -111,11 +118,11 @@ export function DatasetPage() {
           disabled={chart.records.length === 0}
           onClick={() => downloadCsv(chart.records, `${countryCode}_${datasetKey}_${viewKey}.csv`)}
         >
-          Descargar CSV
+          {t("dataset.downloadCsv")}
         </button>
       </div>
 
-      {viewQuery.isLoading ? <div className="status">Cargando datos…</div> : null}
+      {viewQuery.isLoading ? <div className="status">{t("dataset.loadingData")}</div> : null}
       {viewQuery.isError ? (
         <div className="error">{(viewQuery.error as Error).message}</div>
       ) : null}
@@ -124,24 +131,24 @@ export function DatasetPage() {
         <>
           <section className="metrics">
             <Metric
-              label={`Total registrado (${latestYear ?? "-"})`}
+              label={`${t("metric.total")} (${latestYear ?? "-"})`}
               value={formatNumber(latestSum)}
             />
-            <Metric label="Años disponibles" value={chart.years.length} />
+            <Metric label={t("metric.years")} value={chart.years.length} />
             <Metric label={payload.view.category_label} value={chart.categoryCount} />
           </section>
 
           <section className="panel">
             <div className="panel-header">
               <div>
-                <strong>Evolución temporal</strong>
-                <p className="muted">Top 8 categorías por valor acumulado.</p>
+                <strong>{t("dataset.trend")}</strong>
+                <p className="muted">{t("dataset.trendDesc")}</p>
               </div>
             </div>
             {chart.data.length > 0 ? (
               <TrendChart chart={chart} />
             ) : (
-              <div className="empty-state">No hay datos para estos filtros.</div>
+              <div className="empty-state">{t("dataset.empty")}</div>
             )}
           </section>
         </>

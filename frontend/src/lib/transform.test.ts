@@ -147,6 +147,7 @@ describe("colorFor", () => {
 describe("filterLabel", () => {
   it("maps known keys and falls back to the raw key", () => {
     expect(filterLabel("sex")).toBe("Sexo");
+    expect(filterLabel("sex", "en")).toBe("Sex");
     expect(filterLabel("unknown_key")).toBe("unknown_key");
   });
 });

@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 
 import { App } from "./App";
+import { LangProvider } from "./i18n";
 import { CatalogPage } from "./pages/CatalogPage";
 import { DatasetPage } from "./pages/DatasetPage";
 import "./styles.css";
@@ -31,8 +32,10 @@ if (!rootElement) {
 
 createRoot(rootElement).render(
   <StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-    </QueryClientProvider>
+    <LangProvider>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      </QueryClientProvider>
+    </LangProvider>
   </StrictMode>,
 );

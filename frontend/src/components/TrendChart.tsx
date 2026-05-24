@@ -9,6 +9,7 @@ import {
   YAxis,
 } from "recharts";
 
+import { useT } from "../i18n";
 import { colorFor, formatNumber, type ChartData } from "../lib/transform";
 
 interface TrendChartProps {
@@ -16,6 +17,7 @@ interface TrendChartProps {
 }
 
 export function TrendChart({ chart }: TrendChartProps) {
+  const t = useT();
   return (
     <div className="chart-frame">
       <ResponsiveContainer width="100%" height={420}>
@@ -30,7 +32,7 @@ export function TrendChart({ chart }: TrendChartProps) {
           />
           <Tooltip
             formatter={(value) => formatNumber(Number(value ?? 0))}
-            labelFormatter={(label) => `Año ${String(label)}`}
+            labelFormatter={(label) => `${t("chart.year")} ${String(label)}`}
           />
           <Legend />
           {chart.categories.map((category) => (

@@ -11,7 +11,7 @@ Plataforma colaborativa **multi-país** de datos públicos abiertos. Cada país 
 ## Stack
 
 - **Backend:** FastAPI + httpx + tenacity + pandas + pydantic v2 (Python 3.11+).
-- **Frontend:** React 18 + TypeScript + Vite, react-router, TanStack Query, Recharts.
+- **Frontend:** React 18 + TypeScript + Vite, react-router, TanStack Query, Recharts, i18n es/en.
 - **Calidad:** ruff + mypy strict + pytest + respx (backend); eslint + tsc strict + Vitest + Testing Library (frontend).
 
 ## Estructura
@@ -131,7 +131,7 @@ Visión: catálogo federado de datos públicos abiertos, multi-país, con UI com
 
 - **Fase 0 — Fundamentos** ✅ git, CI, CONTRIBUTING, ADRs.
 - **Fase 1 — Cinturón de seguridad** ✅ tests con respx + fixtures reales (96% cobertura), pre-commit.
-- **Fase 2 — Plataforma** 🚧 frontend TS + router + Recharts ✅; pendiente API `/api/v1/`, i18n, caché persistente con snapshots fallback.
+- **Fase 2 — Plataforma** 🚧 frontend TS + router + Recharts ✅; i18n es/en (API `?lang=` + toggle) ✅; pendiente API `/api/v1/`, caché persistente con snapshots fallback.
 - **Fase 3 — Expansión** 🚧 Eurostat (multi-país, JSON-stat) ✅; pendiente Francia (INSEE), Portugal (INE-PT), OECD / World Bank, mapas, atribución y licencias en cada respuesta.
 
 Detalle en [docs/adr/](docs/adr/).

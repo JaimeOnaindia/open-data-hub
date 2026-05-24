@@ -22,15 +22,17 @@ export interface ChartData {
   records: DataRecord[];
 }
 
-const FILTER_LABELS: Record<string, string> = {
-  category: "Categoría",
-  metric: "Métrica",
-  nationality: "Nacionalidad",
-  num_offenses: "Nº de delitos",
-  sex: "Sexo",
-  age_group: "Grupo de edad",
-  territory: "Territorio",
-  operation: "Operación",
+type Lang = "es" | "en";
+
+const FILTER_LABELS: Record<string, Record<Lang, string>> = {
+  category: { es: "Categoría", en: "Category" },
+  metric: { es: "Métrica", en: "Metric" },
+  nationality: { es: "Nacionalidad", en: "Nationality" },
+  num_offenses: { es: "Nº de delitos", en: "No. of offences" },
+  sex: { es: "Sexo", en: "Sex" },
+  age_group: { es: "Grupo de edad", en: "Age group" },
+  territory: { es: "Territorio", en: "Territory" },
+  operation: { es: "Operación", en: "Operation" },
 };
 
 const MAX_CATEGORIES = 8;
@@ -46,8 +48,8 @@ const PALETTE = [
   "#be123c",
 ];
 
-export function filterLabel(key: string): string {
-  return FILTER_LABELS[key] ?? key;
+export function filterLabel(key: string, lang: Lang = "es"): string {
+  return FILTER_LABELS[key]?.[lang] ?? key;
 }
 
 export function colorFor(value: string): string {
@@ -67,7 +69,10 @@ function defaultFilterValues(options: string[]): string[] {
   return preferred ? [preferred] : options.slice(0, 1);
 }
 
-export function buildFilters(payload: DatasetTablePayload | undefined): FilterDef[] {
+export function buildFilters(
+  payload: DatasetTablePayload | undefined,
+  lang: Lang = "es",
+): FilterDef[] {
   if (!payload?.records.length) {
     return [];
   }
@@ -81,7 +86,7 @@ export function buildFilters(payload: DatasetTablePayload | undefined): FilterDe
             .map(String),
         ),
       ].sort((a, b) => a.localeCompare(b, "es"));
-      return { key, label: filterLabel(key), options, defaults: defaultFilterValues(options) };
+      return { key, label: filterLabel(key, lang), options, defaults: defaultFilterValues(options) };
     })
     .filter((filter) => filter.options.length > 1);
 }

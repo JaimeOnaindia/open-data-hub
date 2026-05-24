@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 
 import { useCountries } from "../api/queries";
+import { useT } from "../i18n";
 
 export function CatalogPage() {
+  const t = useT();
   const { data: countries, isLoading, isError, error } = useCountries();
 
   if (isLoading) {
-    return <div className="status">Cargando catálogo…</div>;
+    return <div className="status">{t("catalog.loading")}</div>;
   }
   if (isError) {
     return <div className="error">{(error as Error).message}</div>;
@@ -16,10 +18,8 @@ export function CatalogPage() {
     <section className="content">
       <div className="topbar">
         <div>
-          <h1>Catálogo de datos abiertos</h1>
-          <p className="muted">
-            Datos en directo desde institutos oficiales, servidos por una API propia.
-          </p>
+          <h1>{t("catalog.title")}</h1>
+          <p className="muted">{t("catalog.desc")}</p>
         </div>
       </div>
 
