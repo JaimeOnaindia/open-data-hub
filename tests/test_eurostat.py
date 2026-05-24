@@ -76,6 +76,27 @@ def test_parse_jsonstat_empty_payload() -> None:
     assert parse_jsonstat({"value": {}}).empty
 
 
+def test_parse_jsonstat_emits_code_for_code_dims() -> None:
+    payload = {
+        "id": ["geo", "time"],
+        "size": [2, 1],
+        "dimension": {
+            "geo": {
+                "category": {
+                    "index": {"ES": 0, "DE": 1},
+                    "label": {"ES": "Spain", "DE": "Germany"},
+                }
+            },
+            "time": {"category": {"index": {"2024": 0}}},
+        },
+        "value": {"0": 1.0, "1": 2.0},
+    }
+    df = parse_jsonstat(payload, code_dims=("geo",))
+    assert {"geo", "geo__code"} <= set(df.columns)
+    spain = df[df["geo"] == "Spain"].iloc[0]
+    assert spain["geo__code"] == "ES"
+
+
 @respx.mock
 def test_get_dataset_parses_real_fixture(eurostat_unemployment: dict[str, Any]) -> None:
     respx.get(f"{BASE}/une_rt_a").mock(
@@ -115,8 +136,9 @@ def test_fetch_unemployment_renames_geo_to_country(
         return_value=httpx.Response(200, json=eurostat_unemployment)
     )
     df = fetch_unemployment(nult=6)
-    assert list(df.columns) == ["country", "year", "value"]
+    assert list(df.columns) == ["country", "iso", "year", "value"]
     assert (df["country"] == "Spain").any()
+    assert df.loc[df["country"] == "Spain", "iso"].iloc[0] == "ES"
 
 
 @respx.mock
@@ -125,5 +147,5 @@ def test_fetch_hicp_returns_tidy(eurostat_hicp: dict[str, Any]) -> None:
         return_value=httpx.Response(200, json=eurostat_hicp)
     )
     df = fetch_hicp(nult=6)
-    assert list(df.columns) == ["country", "year", "value"]
+    assert list(df.columns) == ["country", "iso", "year", "value"]
     assert len(df) > 0

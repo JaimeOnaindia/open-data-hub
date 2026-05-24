@@ -50,17 +50,27 @@ class EurostatClient:
             raise ValueError(f"Respuesta JSON-stat inesperada de Eurostat para {code}")
         return payload
 
-    def get_dataset_df(self, code: str, *, params: dict[str, str | int]) -> pd.DataFrame:
+    def get_dataset_df(
+        self, code: str, *, params: dict[str, str | int], code_dims: tuple[str, ...] = ()
+    ) -> pd.DataFrame:
         """Aplana un dataset de Eurostat en un DataFrame tidy.
 
         Una fila por celda no nula del hipercubo. Cada dimensión se convierte en una
         columna con su etiqueta humana; `time` se descompone en `period` y `year`.
+        Para las dimensiones de `code_dims` se añade `<dim>__code` con el código fuente.
         """
-        return parse_jsonstat(self.get_dataset(code, params=params))
+        return parse_jsonstat(self.get_dataset(code, params=params), code_dims=code_dims)
 
 
-def parse_jsonstat(payload: dict[str, Any]) -> pd.DataFrame:
-    """Convierte un documento JSON-stat 2.0 en un DataFrame tidy."""
+def parse_jsonstat(
+    payload: dict[str, Any], *, code_dims: tuple[str, ...] = ()
+) -> pd.DataFrame:
+    """Convierte un documento JSON-stat 2.0 en un DataFrame tidy.
+
+    Cada dimensión se emite con su etiqueta humana. Para las de `code_dims` se emite
+    además una columna `<dim>__code` con el código estable de la fuente (útil para
+    armonizar, p. ej. `geo` → ISO).
+    """
     ids: list[str] = list(payload.get("id", []))
     sizes: list[int] = list(payload.get("size", []))
     dimensions: dict[str, Any] = payload.get("dimension", {})
@@ -97,6 +107,8 @@ def parse_jsonstat(payload: dict[str, Any]) -> pd.DataFrame:
                 year = _year_from_period(code)
             else:
                 row[name] = dim_labels[d].get(code, code)
+                if name in code_dims:
+                    row[f"{name}__code"] = code
         if year is None:
             continue
         row["year"] = year

@@ -108,6 +108,17 @@ La API **no llama a las fuentes oficiales en cada petición**: sirve desde snaps
 `data/snapshots/` está en `.gitignore` (no versionamos datos). Almacenamiento elegido:
 parquet por simplicidad; el grano tidy alimenta directamente un futuro modelo relacional/warehouse.
 
+### Relacionar datos entre fuentes
+
+Primer paso de armonización: una dimensión canónica de geografía (`harmonize/geo.py`)
+mapea los códigos `geo` de Eurostat a **ISO 3166-1 alpha-2** (con sus rarezas: EL→GR,
+UK→GB; los agregados como EU27 quedan sin ISO). Los datos de Eurostat llevan ya una
+columna `iso`.
+
+Sobre eso, `analytics.py` usa **DuckDB** (SQL + joins, sin servidor) leyendo los parquet:
+`make relate` une paro e IPCA por país y año. Es el cimiento para el objetivo de
+relacionar datos de muchas fuentes; un star schema saldría de aquí cuando se justifique.
+
 ## Fuentes de datos actuales
 
 ### 🇪🇸 España — INE
@@ -153,7 +164,7 @@ Visión: catálogo federado de datos públicos abiertos, multi-país, con UI com
 - **Fase 0 — Fundamentos** ✅ git, CI, CONTRIBUTING, ADRs.
 - **Fase 1 — Cinturón de seguridad** ✅ tests con respx + fixtures reales (96% cobertura), pre-commit.
 - **Fase 2 — Plataforma** 🚧 frontend TS + router + Recharts ✅; i18n es/en (API `?lang=` + toggle) ✅; pendiente API `/api/v1/`, caché persistente con snapshots fallback.
-- **Fase 3 — Expansión** 🚧 Eurostat (multi-país, JSON-stat) ✅; persistencia parquet + ingesta propia ✅; pendiente Francia (INSEE), Portugal (INE-PT), OECD / World Bank, mapas, atribución y licencias en cada respuesta.
+- **Fase 3 — Expansión** 🚧 Eurostat (multi-país, JSON-stat) ✅; persistencia parquet + ingesta propia ✅; armonización país→ISO + DuckDB para relacionar fuentes ✅; pendiente Francia (INSEE), Portugal (INE-PT), OECD / World Bank, mapas, atribución y licencias.
 
 Detalle en [docs/adr/](docs/adr/).
 

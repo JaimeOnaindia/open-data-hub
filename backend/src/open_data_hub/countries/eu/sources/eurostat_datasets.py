@@ -5,6 +5,7 @@ import pandas as pd
 from open_data_hub.core.datasets import CountryDatasetViews, DatasetViewConfig
 from open_data_hub.core.i18n import L
 from open_data_hub.countries.eu.sources.eurostat_client import EurostatClient
+from open_data_hub.harmonize.geo import to_iso
 
 # (código del dataset Eurostat, filtros fijos que dejan variar geo y time)
 EUROSTAT_QUERIES: dict[str, tuple[str, dict[str, str]]] = {
@@ -19,15 +20,17 @@ def _fetch(query_key: str, *, client: EurostatClient | None, nult: int) -> pd.Da
     client = client or EurostatClient()
     try:
         params: dict[str, str | int] = {**base, "lastTimePeriod": nult}
-        df = client.get_dataset_df(code, params=params)
+        df = client.get_dataset_df(code, params=params, code_dims=("geo",))
     finally:
         if own_client:
             client.close()
 
     if df.empty:
         return df
+    # geo__code (código estable de Eurostat) → ISO canónico; agregados/desconocidos → None
+    df["iso"] = df["geo__code"].map(to_iso) if "geo__code" in df.columns else None
     df = df.rename(columns={"geo": "country"})
-    return df[["country", "year", "value"]]
+    return df[["country", "iso", "year", "value"]]
 
 
 def fetch_unemployment(*, client: EurostatClient | None = None, nult: int = 10) -> pd.DataFrame:

@@ -3,7 +3,7 @@ UVICORN ?= .venv/bin/uvicorn
 NPM ?= npm
 BACKEND_SRC ?= backend/src
 
-.PHONY: install install-api install-front api front check check-api check-front build openapi types ingest
+.PHONY: install install-api install-front api front check check-api check-front build openapi types ingest relate
 
 install: install-api install-front
 
@@ -43,3 +43,6 @@ types: openapi
 
 ingest:
 	PYTHONPATH=$(BACKEND_SRC) $(PYTHON) backend/scripts/ingest.py
+
+relate:
+	PYTHONPATH=$(BACKEND_SRC) $(PYTHON) backend/scripts/relate.py
