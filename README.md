@@ -12,7 +12,7 @@ Plataforma colaborativa **multi-país** de datos públicos abiertos. Cada país 
 
 - **Backend:** FastAPI + httpx + tenacity + pandas + pydantic v2 (Python 3.11+).
 - **Frontend:** React 18 + TypeScript + Vite, react-router, TanStack Query, Recharts.
-- **Calidad:** ruff + mypy strict + pytest + respx + eslint + tsc strict.
+- **Calidad:** ruff + mypy strict + pytest + respx (backend); eslint + tsc strict + Vitest + Testing Library (frontend).
 
 ## Estructura
 

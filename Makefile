@@ -30,6 +30,7 @@ check-api:
 check-front:
 	$(NPM) --prefix frontend run typecheck
 	$(NPM) --prefix frontend run lint
+	$(NPM) --prefix frontend run test:run
 
 build:
 	$(NPM) --prefix frontend run build
