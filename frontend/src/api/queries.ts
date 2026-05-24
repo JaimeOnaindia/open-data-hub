@@ -14,7 +14,7 @@ export function useCountries() {
   const { lang } = useLang();
   return useQuery({
     queryKey: ["countries", lang],
-    queryFn: ({ signal }) => fetchJson<CountrySummary[]>(`/api/countries?lang=${lang}`, signal),
+    queryFn: ({ signal }) => fetchJson<CountrySummary[]>(`/api/v1/countries?lang=${lang}`, signal),
     staleTime: STALE,
   });
 }
@@ -25,7 +25,7 @@ export function useDatasetViews(countryCode: string, datasetKey: string) {
     queryKey: ["views", countryCode, datasetKey, lang],
     queryFn: ({ signal }) =>
       fetchJson<DatasetViewSummary[]>(
-        `/api/datasets/${countryCode}/${datasetKey}/views?lang=${lang}`,
+        `/api/v1/datasets/${countryCode}/${datasetKey}/views?lang=${lang}`,
         signal,
       ),
     staleTime: STALE,
@@ -43,7 +43,7 @@ export function useDatasetView(
     queryKey: ["view", countryCode, datasetKey, viewKey, nult, lang],
     queryFn: ({ signal }) =>
       fetchJson<DatasetTablePayload>(
-        `/api/datasets/${countryCode}/${datasetKey}/views/${viewKey}?nult=${nult}&lang=${lang}`,
+        `/api/v1/datasets/${countryCode}/${datasetKey}/views/${viewKey}?nult=${nult}&lang=${lang}`,
         signal,
       ),
     enabled: Boolean(viewKey),

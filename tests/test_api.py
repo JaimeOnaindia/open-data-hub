@@ -181,3 +181,45 @@ def test_views_localized_to_english(client: TestClient) -> None:
 def test_unknown_lang_falls_back_to_spanish(client: TestClient) -> None:
     es = next(c for c in client.get("/api/countries?lang=fr").json() if c["code"] == "es")
     assert es["name"] == "España"
+
+
+# --- API v1 (contrato estable) + deprecación de /api ---
+
+
+def test_v1_health(client: TestClient) -> None:
+    assert client.get("/api/v1/health").json() == {"status": "ok"}
+
+
+def test_v1_countries(client: TestClient) -> None:
+    response = client.get("/api/v1/countries")
+    assert response.status_code == 200
+    codes = {c["code"] for c in response.json()}
+    assert {"es", "eu"} <= codes
+
+
+def test_v1_views_and_404s(client: TestClient) -> None:
+    assert client.get("/api/v1/datasets/es/crime/views").status_code == 200
+    assert client.get("/api/v1/datasets/xx/crime/views").status_code == 404
+
+
+@respx.mock
+def test_v1_get_view_returns_records(
+    client: TestClient, ine_crime_25997: list[dict[str, Any]]
+) -> None:
+    respx.get(f"{BASE}/DATOS_TABLA/25997").mock(
+        return_value=httpx.Response(200, json=ine_crime_25997)
+    )
+    response = client.get("/api/v1/datasets/es/crime/views/offenses-by-type?nult=3")
+    assert response.status_code == 200
+    assert response.json()["view"]["key"] == "offenses-by-type"
+
+
+def test_legacy_alias_still_works(client: TestClient) -> None:
+    # /api (sin v1) sigue respondiendo como alias deprecado.
+    assert client.get("/api/countries").status_code == 200
+
+
+def test_openapi_marks_legacy_deprecated_not_v1() -> None:
+    paths = app.openapi()["paths"]
+    assert paths["/api/countries"]["get"]["deprecated"] is True
+    assert paths["/api/v1/countries"]["get"].get("deprecated", False) is False

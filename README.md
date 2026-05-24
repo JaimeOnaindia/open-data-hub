@@ -77,15 +77,17 @@ pytest -q   # tests backend
 
 ## API
 
-Todos los endpoints devuelven JSON. Docs auto-generadas en `/docs` (Swagger) y `/redoc`.
+Contrato estable bajo **`/api/v1`**. Todos los endpoints devuelven JSON; aceptan `?lang=es|en`.
+Docs auto-generadas en `/docs` (Swagger) y `/redoc`. Las rutas `/api/*` (sin `v1`) y `/api/crime/*`
+siguen activas como **alias deprecados** (se eliminarán en v2).
 
 | Endpoint | Descripción |
 |----------|-------------|
-| `GET /api/health` | Health check. |
-| `GET /api/countries` | Catálogo de países y sus datasets. |
-| `GET /api/datasets` | Índice plano de todos los datasets registrados. |
-| `GET /api/datasets/{cc}/{dataset}/views` | Vistas disponibles de un dataset. |
-| `GET /api/datasets/{cc}/{dataset}/views/{view}?nult=N` | Datos tidy de la vista. |
+| `GET /api/v1/health` | Health check. |
+| `GET /api/v1/countries` | Catálogo de países y sus datasets. |
+| `GET /api/v1/datasets` | Índice plano de todos los datasets registrados. |
+| `GET /api/v1/datasets/{cc}/{dataset}/views` | Vistas disponibles de un dataset. |
+| `GET /api/v1/datasets/{cc}/{dataset}/views/{view}?nult=N` | Datos tidy de la vista. |
 
 ## Fuentes de datos actuales
 

@@ -4,7 +4,7 @@ from functools import lru_cache
 from typing import Any, cast
 
 import pandas as pd
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import APIRouter, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -44,8 +44,8 @@ CrimeTablePayload = DatasetTablePayload
 
 app = FastAPI(
     title="Open Data Hub API",
-    version="0.1.0",
-    description="API JSON para dashboards de datos públicos abiertos.",
+    version="1.0.0",
+    description="API JSON para dashboards de datos públicos abiertos. Versión estable: /api/v1.",
 )
 app.add_middleware(
     CORSMiddleware,
@@ -55,12 +55,13 @@ app.add_middleware(
 )
 
 
-@app.get("/api/health")
+# --- Handlers (registrados en los routers más abajo) ------------------------
+
+
 def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
-@app.get("/api/countries")
 def list_countries(lang: str = Query(default="es")) -> list[CountrySummary]:
     locale = normalize_lang(lang)
     return [
@@ -82,7 +83,6 @@ def list_countries(lang: str = Query(default="es")) -> list[CountrySummary]:
     ]
 
 
-@app.get("/api/datasets")
 def list_datasets(lang: str = Query(default="es")) -> list[DatasetIndexItem]:
     locale = normalize_lang(lang)
     return [
@@ -100,7 +100,6 @@ def list_datasets(lang: str = Query(default="es")) -> list[DatasetIndexItem]:
     ]
 
 
-@app.get("/api/datasets/{country_code}/{dataset_key}/views")
 def list_dataset_views(
     country_code: str, dataset_key: str, lang: str = Query(default="es")
 ) -> list[DatasetViewSummary]:
@@ -110,7 +109,6 @@ def list_dataset_views(
     ]
 
 
-@app.get("/api/datasets/{country_code}/{dataset_key}/views/{view_key}")
 def get_dataset_view(
     country_code: str,
     dataset_key: str,
@@ -123,18 +121,55 @@ def get_dataset_view(
     return DatasetTablePayload(view=view.summary(normalize_lang(lang)), records=records)
 
 
-@app.get("/api/crime/views")
 def list_crime_views(lang: str = Query(default="es")) -> list[CrimeViewSummary]:
     return list_dataset_views("es", "crime", lang)
 
 
-@app.get("/api/crime/views/{view_key}")
 def get_crime_view(
     view_key: str,
     nult: int = Query(default=10, ge=2, le=20),
     lang: str = Query(default="es"),
 ) -> CrimeTablePayload:
     return get_dataset_view("es", "crime", view_key, nult, lang)
+
+
+# --- Routers ----------------------------------------------------------------
+# /api/v1 es el contrato estable. /api (incl. /api/crime) queda como alias
+# deprecado para no romper consumidores anteriores; se eliminará en una v2.
+
+v1 = APIRouter(prefix="/api/v1", tags=["v1"])
+v1.add_api_route("/health", health, methods=["GET"])
+v1.add_api_route("/countries", list_countries, methods=["GET"])
+v1.add_api_route("/datasets", list_datasets, methods=["GET"])
+v1.add_api_route(
+    "/datasets/{country_code}/{dataset_key}/views", list_dataset_views, methods=["GET"]
+)
+v1.add_api_route(
+    "/datasets/{country_code}/{dataset_key}/views/{view_key}",
+    get_dataset_view,
+    methods=["GET"],
+)
+
+legacy = APIRouter(prefix="/api", tags=["deprecated"], deprecated=True)
+legacy.add_api_route("/health", health, methods=["GET"])
+legacy.add_api_route("/countries", list_countries, methods=["GET"])
+legacy.add_api_route("/datasets", list_datasets, methods=["GET"])
+legacy.add_api_route(
+    "/datasets/{country_code}/{dataset_key}/views", list_dataset_views, methods=["GET"]
+)
+legacy.add_api_route(
+    "/datasets/{country_code}/{dataset_key}/views/{view_key}",
+    get_dataset_view,
+    methods=["GET"],
+)
+legacy.add_api_route("/crime/views", list_crime_views, methods=["GET"])
+legacy.add_api_route("/crime/views/{view_key}", get_crime_view, methods=["GET"])
+
+app.include_router(v1)
+app.include_router(legacy)
+
+
+# --- Helpers internos -------------------------------------------------------
 
 
 def _get_dataset_views(country_code: str, dataset_key: str) -> DatasetViews:
