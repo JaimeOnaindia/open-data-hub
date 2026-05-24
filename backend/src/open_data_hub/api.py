@@ -15,7 +15,7 @@ from open_data_hub.core.datasets import (
     DatasetViewSummary,
 )
 from open_data_hub.core.i18n import normalize_lang, resolve
-from open_data_hub.core.storage import read_view
+from open_data_hub.core.storage import read_meta, read_view
 from open_data_hub.countries.catalog import COUNTRIES, DATASET_VIEWS_BY_COUNTRY
 
 
@@ -119,7 +119,12 @@ def get_dataset_view(
 ) -> DatasetTablePayload:
     view = _get_dataset_view(country_code, dataset_key, view_key)
     records = _frame_to_records(_load_dataset_view(country_code, dataset_key, view.key, nult))
-    return DatasetTablePayload(view=view.summary(normalize_lang(lang)), records=records)
+    meta = read_meta(country_code, dataset_key, view.key)
+    return DatasetTablePayload(
+        view=view.summary(normalize_lang(lang)),
+        records=records,
+        fetched_at=str(meta["fetched_at"]) if meta else None,
+    )
 
 
 def list_crime_views(lang: str = Query(default="es")) -> list[CrimeViewSummary]:

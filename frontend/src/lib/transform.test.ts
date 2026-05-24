@@ -7,6 +7,7 @@ import {
   colorFor,
   downloadCsv,
   filterLabel,
+  formatDate,
   formatNumber,
 } from "./transform";
 
@@ -134,6 +135,14 @@ describe("formatNumber", () => {
   it("formats with es-ES grouping and no decimals", () => {
     expect(formatNumber(1234567)).toBe("1.234.567");
     expect(formatNumber(0)).toBe("0");
+  });
+});
+
+describe("formatDate", () => {
+  it("formats an ISO timestamp as a localized date", () => {
+    const iso = "2026-05-24T22:13:33+00:00";
+    expect(formatDate(iso, "es")).toContain("2026");
+    expect(formatDate(iso, "en")).toContain("2026");
   });
 });
 

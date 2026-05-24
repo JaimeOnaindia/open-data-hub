@@ -10,6 +10,7 @@ import {
   buildChart,
   buildFilters,
   downloadCsv,
+  formatDate,
   formatNumber,
   type FilterValues,
 } from "../lib/transform";
@@ -70,6 +71,11 @@ export function DatasetPage() {
         <div>
           <h1>{payload?.view.label ?? t("dataset.titleFallback")}</h1>
           <p className="muted">{t("dataset.subtitle")}</p>
+          {payload?.fetched_at ? (
+            <p className="muted source-note">
+              {t("dataset.dataAsOf")} {formatDate(payload.fetched_at, lang)}
+            </p>
+          ) : null}
         </div>
       </div>
 

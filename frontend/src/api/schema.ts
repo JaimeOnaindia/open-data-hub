@@ -274,6 +274,11 @@ export interface components {
         };
         /** DatasetTablePayload */
         DatasetTablePayload: {
+            /**
+             * Fetched At
+             * @description ISO 8601 del snapshot servido; null si se sirvió en vivo.
+             */
+            fetched_at?: string | null;
             /** Records */
             records: {
                 [key: string]: unknown;

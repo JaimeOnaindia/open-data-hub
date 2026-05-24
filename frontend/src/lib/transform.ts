@@ -64,6 +64,11 @@ export function formatNumber(value: number): string {
   return new Intl.NumberFormat("es-ES", { maximumFractionDigits: 0 }).format(value);
 }
 
+export function formatDate(iso: string, lang: Lang = "es"): string {
+  const locale = lang === "en" ? "en-GB" : "es-ES";
+  return new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(new Date(iso));
+}
+
 function defaultFilterValues(options: string[]): string[] {
   const preferred = options.find((option) => /dato base|total/i.test(option));
   return preferred ? [preferred] : options.slice(0, 1);

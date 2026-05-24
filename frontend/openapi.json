@@ -105,6 +105,18 @@
       },
       "DatasetTablePayload": {
         "properties": {
+          "fetched_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "ISO 8601 del snapshot servido; null si se sirvió en vivo.",
+            "title": "Fetched At"
+          },
           "records": {
             "items": {
               "additionalProperties": true,

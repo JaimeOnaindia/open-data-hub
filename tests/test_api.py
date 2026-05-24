@@ -109,6 +109,8 @@ def test_get_view_returns_records(
     assert payload["view"]["category_col"] == "offense_type"
     assert "metric" in payload["view"]["filter_cols"]
     assert len(payload["records"]) > 0
+    # servido en vivo (sin snapshot en el dir aislado) → sin fecha de snapshot
+    assert payload["fetched_at"] is None
 
     sample = payload["records"][0]
     assert {"year", "value", "scope", "metric", "offense_type"} <= set(sample.keys())
@@ -242,5 +244,8 @@ def test_serves_from_snapshot_without_hitting_source(client: TestClient) -> None
 
     response = client.get("/api/v1/datasets/es/crime/views/offenses-by-type?nult=5")
     assert response.status_code == 200
-    records = response.json()["records"]
+    payload = response.json()
+    records = payload["records"]
     assert {r["offense_type"] for r in records} == {"Robo", "Hurto"}
+    # servido desde snapshot → expone la procedencia
+    assert payload["fetched_at"] is not None
