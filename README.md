@@ -112,8 +112,8 @@ Buenos primeros issues: [`good first issue`](https://github.com/JaimeOnaindia/op
 Visión: catálogo federado de datos públicos abiertos, multi-país, con UI comparativa y API estable consumible por terceros.
 
 - **Fase 0 — Fundamentos** ✅ git, CI, CONTRIBUTING, ADRs.
-- **Fase 1 — Cinturón de seguridad** 🚧 tests con respx + fixtures reales, pre-commit, badge de cobertura.
-- **Fase 2 — Plataforma**: TS en frontend + router + librería gráficos, API `/api/v1/`, i18n, caché persistente con snapshots fallback.
+- **Fase 1 — Cinturón de seguridad** ✅ tests con respx + fixtures reales (96% cobertura), pre-commit.
+- **Fase 2 — Plataforma** 🚧 frontend TS + router + Recharts ✅; pendiente API `/api/v1/`, i18n, caché persistente con snapshots fallback.
 - **Fase 3 — Expansión**: Francia (INSEE), Portugal (INE-PT), Eurostat / OECD / World Bank, mapas, atribución y licencias en cada respuesta.
 
 Detalle en [docs/adr/](docs/adr/).
@@ -121,6 +121,7 @@ Detalle en [docs/adr/](docs/adr/).
 ## Decisiones arquitectónicas
 
 - [ADR-0001: Arquitectura base — FastAPI + React + módulos por país](docs/adr/0001-architecture-baseline.md)
+- [ADR-0002: Frontend en TypeScript con router, TanStack Query y Recharts](docs/adr/0002-frontend-typescript.md)
 
 ## Licencia
 
