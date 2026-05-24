@@ -15,6 +15,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest>=8.3",
+    "pytest-cov>=5.0",
     "respx>=0.21",
     "ruff>=0.7",
     "mypy>=1.13",
@@ -48,4 +49,17 @@ packages = ["open_data_hub"]
 [tool.pytest.ini_options]
 pythonpath = ["backend/src"]
 testpaths = ["tests"]
-addopts = "-ra"
+addopts = "-ra --cov=open_data_hub --cov-report=term-missing --cov-fail-under=80"
+
+[tool.coverage.run]
+source = ["backend/src/open_data_hub"]
+branch = true
+
+[tool.coverage.report]
+exclude_also = [
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+    "pass",
+]
+show_missing = true
+skip_empty = true

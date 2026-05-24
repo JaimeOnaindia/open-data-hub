@@ -51,7 +51,16 @@ Verificar antes de hacer commit:
 
 ```bash
 make check  # mypy + ruff + tsc + eslint
+pytest -q   # tests
 ```
+
+(Opcional pero recomendado) activar **pre-commit** para que se ejecute automáticamente:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
 
 ## Añadir un país nuevo
 

@@ -1,0 +1,4394 @@
+[
+  {
+    "COD": "CON4054",
+    "Nombre": "Total Nacional. Dato base. Delitos. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 455705.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 403194.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4053",
+    "Nombre": "Total Nacional. Dato base. Delitos. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 373889.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 332903.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4052",
+    "Nombre": "Total Nacional. Dato base. Delitos. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 81816.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 70291.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4051",
+    "Nombre": "Total Nacional. Dato base. Homicidio y sus formas. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1237.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1046.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4050",
+    "Nombre": "Total Nacional. Dato base. Homicidio y sus formas. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1113.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 957.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4049",
+    "Nombre": "Total Nacional. Dato base. Homicidio y sus formas. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 124.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 89.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4048",
+    "Nombre": "Total Nacional. Dato base. Homicidio. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 433.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 313.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4047",
+    "Nombre": "Total Nacional. Dato base. Homicidio. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 400.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 292.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4046",
+    "Nombre": "Total Nacional. Dato base. Homicidio. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 33.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 21.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4045",
+    "Nombre": "Total Nacional. Dato base. Asesinato. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 314.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 211.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4044",
+    "Nombre": "Total Nacional. Dato base. Asesinato. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 276.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 196.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4043",
+    "Nombre": "Total Nacional. Dato base. Asesinato. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 38.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 15.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4042",
+    "Nombre": "Total Nacional. Dato base. Homicidio por imprudencia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 489.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 520.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4041",
+    "Nombre": "Total Nacional. Dato base. Homicidio por imprudencia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 436.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 468.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4040",
+    "Nombre": "Total Nacional. Dato base. Homicidio por imprudencia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 53.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 52.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4039",
+    "Nombre": "Total Nacional. Dato base. Inducción al suicidio. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4038",
+    "Nombre": "Total Nacional. Dato base. Inducción al suicidio. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4037",
+    "Nombre": "Total Nacional. Dato base. Inducción al suicidio. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 0.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4036",
+    "Nombre": "Total Nacional. Dato base. Lesiones. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 78575.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 69946.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4035",
+    "Nombre": "Total Nacional. Dato base. Lesiones. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 65774.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 58988.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4034",
+    "Nombre": "Total Nacional. Dato base. Lesiones. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 12801.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10958.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4033",
+    "Nombre": "Total Nacional. Dato base. Contra la libertad. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 33921.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 30543.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4032",
+    "Nombre": "Total Nacional. Dato base. Contra la libertad. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 29581.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 26851.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4031",
+    "Nombre": "Total Nacional. Dato base. Contra la libertad. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4340.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3692.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4030",
+    "Nombre": "Total Nacional. Dato base. Amenazas. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 26694.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 23986.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4029",
+    "Nombre": "Total Nacional. Dato base. Amenazas. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 23264.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 21143.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4028",
+    "Nombre": "Total Nacional. Dato base. Amenazas. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 3430.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2843.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON40373",
+    "Nombre": "Total Nacional. Dato base. Coacciones y detenciones ilegales. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 7227.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 6557.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON40372",
+    "Nombre": "Total Nacional. Dato base. Coacciones y detenciones ilegales. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6317.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5708.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON40371",
+    "Nombre": "Total Nacional. Dato base. Coacciones y detenciones ilegales. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 910.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 849.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4024",
+    "Nombre": "Total Nacional. Dato base. Torturas e integridad moral. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 11553.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10097.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4023",
+    "Nombre": "Total Nacional. Dato base. Torturas e integridad moral. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 10898.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 9583.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4022",
+    "Nombre": "Total Nacional. Dato base. Torturas e integridad moral. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 655.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 514.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4021",
+    "Nombre": "Total Nacional. Dato base. Trato degradante y violencia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 11523.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10064.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4020",
+    "Nombre": "Total Nacional. Dato base. Trato degradante y violencia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 10872.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 9551.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4019",
+    "Nombre": "Total Nacional. Dato base. Trato degradante y violencia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 651.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 513.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4018",
+    "Nombre": "Total Nacional. Dato base. Tortura. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 15.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 23.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4017",
+    "Nombre": "Total Nacional. Dato base. Tortura. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 13.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 22.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4016",
+    "Nombre": "Total Nacional. Dato base. Tortura. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4015",
+    "Nombre": "Total Nacional. Dato base. Otros. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 15.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4014",
+    "Nombre": "Total Nacional. Dato base. Otros. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 13.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4013",
+    "Nombre": "Total Nacional. Dato base. Otros. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 0.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4012",
+    "Nombre": "Total Nacional. Dato base. Contra la libertad e indemnidad sexuales. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5073.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3423.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4011",
+    "Nombre": "Total Nacional. Dato base. Contra la libertad e indemnidad sexuales. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4812.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3336.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4010",
+    "Nombre": "Total Nacional. Dato base. Contra la libertad e indemnidad sexuales. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 261.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 87.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4009",
+    "Nombre": "Total Nacional. Dato base. Contra las relaciones familiares. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4645.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4013.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4008",
+    "Nombre": "Total Nacional. Dato base. Contra las relaciones familiares. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4087.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3532.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4007",
+    "Nombre": "Total Nacional. Dato base. Contra las relaciones familiares. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 558.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 481.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4006",
+    "Nombre": "Total Nacional. Dato base. Contra los derechos y deberes familiares. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4633.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4000.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4005",
+    "Nombre": "Total Nacional. Dato base. Contra los derechos y deberes familiares. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4080.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3527.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4004",
+    "Nombre": "Total Nacional. Dato base. Contra los derechos y deberes familiares. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 553.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 473.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4003",
+    "Nombre": "Total Nacional. Dato base. Quebrantamiento de los deberes de custodia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 21.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 11.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4002",
+    "Nombre": "Total Nacional. Dato base. Quebrantamiento de los deberes de custodia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 13.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4001",
+    "Nombre": "Total Nacional. Dato base. Quebrantamiento de los deberes de custodia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 8.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 6.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON4000",
+    "Nombre": "Total Nacional. Dato base. Sustracción de menores. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 41.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 36.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3999",
+    "Nombre": "Total Nacional. Dato base. Sustracción de menores. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 14.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 15.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3998",
+    "Nombre": "Total Nacional. Dato base. Sustracción de menores. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 27.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 21.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3997",
+    "Nombre": "Total Nacional. Dato base. Abandono de familia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4571.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3953.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3996",
+    "Nombre": "Total Nacional. Dato base. Abandono de familia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4053.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3507.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3995",
+    "Nombre": "Total Nacional. Dato base. Abandono de familia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 518.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 446.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3994",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra las relaciones familiares. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 12.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 13.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3993",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra las relaciones familiares. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 7.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3992",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra las relaciones familiares. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 8.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3991",
+    "Nombre": "Total Nacional. Dato base. Contra el patrimonio y el orden socioeconómico. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 145448.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 121593.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3990",
+    "Nombre": "Total Nacional. Dato base. Contra el patrimonio y el orden socioeconómico. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 103997.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 86747.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3989",
+    "Nombre": "Total Nacional. Dato base. Contra el patrimonio y el orden socioeconómico. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 41451.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 34846.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3988",
+    "Nombre": "Total Nacional. Dato base. Hurtos. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 73364.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 60348.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3987",
+    "Nombre": "Total Nacional. Dato base. Hurtos. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 44890.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 36456.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3986",
+    "Nombre": "Total Nacional. Dato base. Hurtos. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 28474.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 23892.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3985",
+    "Nombre": "Total Nacional. Dato base. Robos. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 25572.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 21414.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3984",
+    "Nombre": "Total Nacional. Dato base. Robos. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 23605.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 19814.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3983",
+    "Nombre": "Total Nacional. Dato base. Robos. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1967.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1600.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3982",
+    "Nombre": "Total Nacional. Dato base. Robo con violencia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 9447.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 7647.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3981",
+    "Nombre": "Total Nacional. Dato base. Robo con violencia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 8539.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 6932.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3980",
+    "Nombre": "Total Nacional. Dato base. Robo con violencia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 908.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 715.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3979",
+    "Nombre": "Total Nacional. Dato base. Robo con fuerza. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 16125.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 13767.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3978",
+    "Nombre": "Total Nacional. Dato base. Robo con fuerza. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 15066.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 12882.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3977",
+    "Nombre": "Total Nacional. Dato base. Robo con fuerza. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1059.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 885.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3976",
+    "Nombre": "Total Nacional. Dato base. Robo y hurto de uso de vehículo. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1546.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1409.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3975",
+    "Nombre": "Total Nacional. Dato base. Robo y hurto de uso de vehículo. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1461.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1337.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3974",
+    "Nombre": "Total Nacional. Dato base. Robo y hurto de uso de vehículo. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 85.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 72.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3973",
+    "Nombre": "Total Nacional. Dato base. Usurpación. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 3301.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2874.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3972",
+    "Nombre": "Total Nacional. Dato base. Usurpación. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1815.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1534.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3971",
+    "Nombre": "Total Nacional. Dato base. Usurpación. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1486.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1340.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3970",
+    "Nombre": "Total Nacional. Dato base. Defraudaciones. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 26696.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 22488.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3969",
+    "Nombre": "Total Nacional. Dato base. Defraudaciones. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 19803.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 16706.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3968",
+    "Nombre": "Total Nacional. Dato base. Defraudaciones. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6893.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5782.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3967",
+    "Nombre": "Total Nacional. Dato base. Estafas. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 19420.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 15727.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3966",
+    "Nombre": "Total Nacional. Dato base. Estafas. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 14334.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 11626.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3965",
+    "Nombre": "Total Nacional. Dato base. Estafas. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5086.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4101.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3964",
+    "Nombre": "Total Nacional. Dato base. Apropiación indebida. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4759.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4468.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3963",
+    "Nombre": "Total Nacional. Dato base. Apropiación indebida. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 3680.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3481.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3962",
+    "Nombre": "Total Nacional. Dato base. Apropiación indebida. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1079.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 987.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3961",
+    "Nombre": "Total Nacional. Dato base. Defraudaciones de fluido eléctrico. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2517.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2293.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3960",
+    "Nombre": "Total Nacional. Dato base. Defraudaciones de fluido eléctrico. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1789.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1599.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3959",
+    "Nombre": "Total Nacional. Dato base. Defraudaciones de fluido eléctrico. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 728.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 694.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3958",
+    "Nombre": "Total Nacional. Dato base. Daños. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 10744.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 9338.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3957",
+    "Nombre": "Total Nacional. Dato base. Daños. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 9054.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 7911.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3956",
+    "Nombre": "Total Nacional. Dato base. Daños. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1690.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1427.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3955",
+    "Nombre": "Total Nacional. Dato base. Receptación y blanqueo de capitales. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2558.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2191.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3954",
+    "Nombre": "Total Nacional. Dato base. Receptación y blanqueo de capitales. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2062.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1788.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3953",
+    "Nombre": "Total Nacional. Dato base. Receptación y blanqueo de capitales. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 496.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 403.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3952",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra el patrimonio y orden socioeconómico. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1667.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1531.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3951",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra el patrimonio y orden socioeconómico. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1307.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1201.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3950",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra el patrimonio y orden socioeconómico. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 360.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 330.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3949",
+    "Nombre": "Total Nacional. Dato base. Contra la seguridad colectiva. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 116580.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 111299.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3948",
+    "Nombre": "Total Nacional. Dato base. Contra la seguridad colectiva. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 103007.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 98463.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3947",
+    "Nombre": "Total Nacional. Dato base. Contra la seguridad colectiva. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 13573.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 12836.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3946",
+    "Nombre": "Total Nacional. Dato base. Contra la salud pública. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 13386.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 11941.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3945",
+    "Nombre": "Total Nacional. Dato base. Contra la salud pública. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 11456.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10202.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3944",
+    "Nombre": "Total Nacional. Dato base. Contra la salud pública. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1930.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1739.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3943",
+    "Nombre": "Total Nacional. Dato base. Contra la seguridad vial. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 102995.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 99181.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3942",
+    "Nombre": "Total Nacional. Dato base. Contra la seguridad vial. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 91365.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 88105.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3941",
+    "Nombre": "Total Nacional. Dato base. Contra la seguridad vial. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 11630.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 11076.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3940",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la seguridad colectiva. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 199.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 177.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3939",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la seguridad colectiva. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 186.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 156.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3938",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la seguridad colectiva. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 13.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 21.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3937",
+    "Nombre": "Total Nacional. Dato base. Falsedades. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6776.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 6040.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3936",
+    "Nombre": "Total Nacional. Dato base. Falsedades. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5492.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4890.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3935",
+    "Nombre": "Total Nacional. Dato base. Falsedades. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1284.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1150.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3934",
+    "Nombre": "Total Nacional. Dato base. Falsedades documentales. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6389.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5721.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3933",
+    "Nombre": "Total Nacional. Dato base. Falsedades documentales. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5200.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4648.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3932",
+    "Nombre": "Total Nacional. Dato base. Falsedades documentales. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1189.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1073.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3931",
+    "Nombre": "Total Nacional. Dato base. Falsificación documentos públicos. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5820.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5221.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3930",
+    "Nombre": "Total Nacional. Dato base. Falsificación documentos públicos. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4743.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4240.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3929",
+    "Nombre": "Total Nacional. Dato base. Falsificación documentos públicos. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1077.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 981.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3928",
+    "Nombre": "Total Nacional. Dato base. Falsificación documentos privados. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 281.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 260.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3927",
+    "Nombre": "Total Nacional. Dato base. Falsificación documentos privados. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 202.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 200.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3926",
+    "Nombre": "Total Nacional. Dato base. Falsificación documentos privados. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 79.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 60.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3925",
+    "Nombre": "Total Nacional. Dato base. Falsificación de certificados. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 267.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 216.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3924",
+    "Nombre": "Total Nacional. Dato base. Falsificación de certificados. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 237.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 186.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3923",
+    "Nombre": "Total Nacional. Dato base. Falsificación de certificados. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 30.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 30.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3922",
+    "Nombre": "Total Nacional. Dato base. Falsificación de tarjetas de crédito. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 21.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 24.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3921",
+    "Nombre": "Total Nacional. Dato base. Falsificación de tarjetas de crédito. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 18.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 22.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3920",
+    "Nombre": "Total Nacional. Dato base. Falsificación de tarjetas de crédito. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 3.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3919",
+    "Nombre": "Total Nacional. Dato base. Otros delitos de las falsedades. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 387.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 319.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3918",
+    "Nombre": "Total Nacional. Dato base. Otros delitos de las falsedades. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 292.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 242.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3917",
+    "Nombre": "Total Nacional. Dato base. Otros delitos de las falsedades. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 95.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 77.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3916",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración Pública. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 457.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 518.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3915",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración Pública. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 381.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 447.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3914",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración Pública. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 76.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 71.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3913",
+    "Nombre": "Total Nacional. Dato base. Desobediencia y denegación auxilio. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 228.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 222.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3912",
+    "Nombre": "Total Nacional. Dato base. Desobediencia y denegación auxilio. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 190.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 190.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3911",
+    "Nombre": "Total Nacional. Dato base. Desobediencia y denegación auxilio. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 38.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 32.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3910",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la Administración Pública. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 229.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 296.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3909",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la Administración Pública. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 191.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 257.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3908",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la Administración Pública. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 38.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 39.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3907",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración de Justicia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 25685.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 22248.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3906",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración de Justicia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 23248.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 20255.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3905",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración de Justicia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2437.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1993.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3904",
+    "Nombre": "Total Nacional. Dato base. Acusación y denuncia falsas y simulación de delitos. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 527.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 543.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3903",
+    "Nombre": "Total Nacional. Dato base. Acusación y denuncia falsas y simulación de delitos. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 285.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 301.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3902",
+    "Nombre": "Total Nacional. Dato base. Acusación y denuncia falsas y simulación de delitos. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 242.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 242.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3901",
+    "Nombre": "Total Nacional. Dato base. Acusación y denuncias falsas. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 221.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 213.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3900",
+    "Nombre": "Total Nacional. Dato base. Acusación y denuncias falsas. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 77.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 83.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3899",
+    "Nombre": "Total Nacional. Dato base. Acusación y denuncias falsas. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 144.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 130.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3898",
+    "Nombre": "Total Nacional. Dato base. Simulación del delito. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 306.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 330.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3897",
+    "Nombre": "Total Nacional. Dato base. Simulación del delito. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 208.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 218.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3896",
+    "Nombre": "Total Nacional. Dato base. Simulación del delito. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 98.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 112.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3895",
+    "Nombre": "Total Nacional. Dato base. Quebrantamiento de condena. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 24432.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 21024.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3894",
+    "Nombre": "Total Nacional. Dato base. Quebrantamiento de condena. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 22470.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 19476.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3893",
+    "Nombre": "Total Nacional. Dato base. Quebrantamiento de condena. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1962.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1548.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3892",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la Administración de Justicia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 726.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 681.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3891",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la Administración de Justicia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 493.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 478.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3890",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra la Administración de Justicia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 233.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 203.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3889",
+    "Nombre": "Total Nacional. Dato base. Contra el orden público. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 20411.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 17850.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3888",
+    "Nombre": "Total Nacional. Dato base. Contra el orden público. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 17141.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 15007.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3887",
+    "Nombre": "Total Nacional. Dato base. Contra el orden público. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 3270.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2843.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3886",
+    "Nombre": "Total Nacional. Dato base. Atentados contra la autoridad y de la resistencia y desobediencia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 17994.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 15604.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3885",
+    "Nombre": "Total Nacional. Dato base. Atentados contra la autoridad y de la resistencia y desobediencia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 15002.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 13061.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3884",
+    "Nombre": "Total Nacional. Dato base. Atentados contra la autoridad y de la resistencia y desobediencia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2992.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2543.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3883",
+    "Nombre": "Total Nacional. Dato base. Atentados contra la autoridad. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 8257.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 7218.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3882",
+    "Nombre": "Total Nacional. Dato base. Atentados contra la autoridad. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6726.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5932.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3881",
+    "Nombre": "Total Nacional. Dato base. Atentados contra la autoridad. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1531.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1286.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3880",
+    "Nombre": "Total Nacional. Dato base. Resistencia y desobediencia. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 9737.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 8386.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3879",
+    "Nombre": "Total Nacional. Dato base. Resistencia y desobediencia. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 8276.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 7129.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3878",
+    "Nombre": "Total Nacional. Dato base. Resistencia y desobediencia. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1461.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1257.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3877",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra el orden público. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2417.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2246.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3876",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra el orden público. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2139.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1946.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3875",
+    "Nombre": "Total Nacional. Dato base. Otros delitos contra el orden público. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 278.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 300.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3874",
+    "Nombre": "Total Nacional. Dato base. Resto de delitos. Total. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5344.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4578.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3873",
+    "Nombre": "Total Nacional. Dato base. Resto de delitos. Hombres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4358.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3847.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3872",
+    "Nombre": "Total Nacional. Dato base. Resto de delitos. Mujeres. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 986.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 731.0,
+        "Secreto": false
+      }
+    ]
+  }
+]

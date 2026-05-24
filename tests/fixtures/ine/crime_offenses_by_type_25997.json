@@ -1,0 +1,3310 @@
+[
+  {
+    "COD": "CON3871",
+    "Nombre": "Total Nacional. Dato base. Delitos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 455705.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 403194.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 426416.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3870",
+    "Nombre": "Total Nacional. Dato base. Homicidio y sus formas. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1237.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1046.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1088.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3869",
+    "Nombre": "Total Nacional. Dato base. Aborto. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 14.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 5.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3868",
+    "Nombre": "Total Nacional. Dato base. Lesiones. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 78575.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 69946.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 72816.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3867",
+    "Nombre": "Total Nacional. Dato base. Lesiones al feto. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 8.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 20.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3866",
+    "Nombre": "Total Nacional. Dato base. Manipulación genética. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 4.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3865",
+    "Nombre": "Total Nacional. Dato base. Contra la libertad. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 33921.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 30543.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 31060.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3864",
+    "Nombre": "Total Nacional. Dato base. Detenciones ilegales y secuestro. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 276.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 218.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 187.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3863",
+    "Nombre": "Total Nacional. Dato base. Amenazas. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 26694.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 23986.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 24650.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON40370",
+    "Nombre": "Total Nacional. Dato base. Coacciones. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6951.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 6339.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 6223.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3861",
+    "Nombre": "Total Nacional. Dato base. Torturas e integridad moral. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 11553.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10097.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 9842.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3860",
+    "Nombre": "Total Nacional. Dato base. Trata de seres humanos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 391.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 266.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 206.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3859",
+    "Nombre": "Total Nacional. Dato base. Contra la libertad e indemnidad sexuales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5073.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 3423.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 3785.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3858",
+    "Nombre": "Total Nacional. Dato base. Agresiones sexuales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1389.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 676.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 508.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3857",
+    "Nombre": "Total Nacional. Dato base. Abusos sexuales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1097.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 996.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1458.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3856",
+    "Nombre": "Total Nacional. Dato base. Abusos y agresiones sexuales a menores de 16 años. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1151.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 839.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 762.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3855",
+    "Nombre": "Total Nacional. Dato base. Acoso sexual. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 51.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 47.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 81.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3854",
+    "Nombre": "Total Nacional. Dato base. Exhibicionismo y provocación sexual. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 396.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 333.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 377.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3853",
+    "Nombre": "Total Nacional. Dato base. Prostitución y corrupción menores. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 989.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 532.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 599.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3852",
+    "Nombre": "Total Nacional. Dato base. Omisión del deber de socorro. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 13.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 24.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 36.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3851",
+    "Nombre": "Total Nacional. Dato base. Contra la intimidad, derecho a la propia imagen. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 969.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 813.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 917.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3850",
+    "Nombre": "Total Nacional. Dato base. Descubrimiento y revelación de secretos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 693.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 595.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 662.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3849",
+    "Nombre": "Total Nacional. Dato base. Allanamiento de morada. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 276.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 218.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 255.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3848",
+    "Nombre": "Total Nacional. Dato base. Contra el honor. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 151.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 159.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 502.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3847",
+    "Nombre": "Total Nacional. Dato base. Calumnias. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 33.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 31.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 48.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3846",
+    "Nombre": "Total Nacional. Dato base. Injurias. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 118.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 128.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 454.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3845",
+    "Nombre": "Total Nacional. Dato base. Contra las relaciones familiares. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4645.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4013.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 5074.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3844",
+    "Nombre": "Total Nacional. Dato base. Matrimonios ilegales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 10.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 8.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 7.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3843",
+    "Nombre": "Total Nacional. Dato base. Suposición de parto y alteración de la paternidad. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 7.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3842",
+    "Nombre": "Total Nacional. Dato base. Contra los derechos y deberes familiares. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4633.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4000.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 5060.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3841",
+    "Nombre": "Total Nacional. Dato base. Contra el patrimonio y el orden socioeconómico. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 145448.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 121593.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 127772.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3840",
+    "Nombre": "Total Nacional. Dato base. Hurtos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 73364.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 60348.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 58193.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3839",
+    "Nombre": "Total Nacional. Dato base. Robos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 25572.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 21414.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 23210.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3838",
+    "Nombre": "Total Nacional. Dato base. Extorsión. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 223.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 149.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 126.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3837",
+    "Nombre": "Total Nacional. Dato base. Robo y hurto de uso de vehículo. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1546.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1409.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1523.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3836",
+    "Nombre": "Total Nacional. Dato base. Usurpación. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 3301.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2874.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 4067.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3835",
+    "Nombre": "Total Nacional. Dato base. Defraudaciones. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 26696.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 22488.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 25426.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON62179",
+    "Nombre": "Total Nacional. Dato base. Frustración de la ejecución. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 332.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 266.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 287.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3834",
+    "Nombre": "Total Nacional. Dato base. Insolvencias punibles. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 147.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 148.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 282.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3833",
+    "Nombre": "Total Nacional. Dato base. Alteración de precios en concursos y subastas públicas. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 4.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3832",
+    "Nombre": "Total Nacional. Dato base. Daños. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 10744.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 9338.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 10933.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3831",
+    "Nombre": "Total Nacional. Dato base. Propiedad intelectual e industrial. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 911.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 934.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1315.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON42850",
+    "Nombre": "Total Nacional. Dato base. De la sustracción de cosa propia a su utilidad social o cultural. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3830",
+    "Nombre": "Total Nacional. Dato base. Delitos societarios. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 53.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 34.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 62.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3829",
+    "Nombre": "Total Nacional. Dato base. Receptación y blanqueo de capitales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 2558.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2191.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 2343.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3828",
+    "Nombre": "Total Nacional. Dato base. Contra la Hacienda Pública y Seguridad Social. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 849.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 799.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1094.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3827",
+    "Nombre": "Total Nacional. Dato base. Contra los derechos de los trabajadores. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 616.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 522.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 600.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3826",
+    "Nombre": "Total Nacional. Dato base. Contra los derechos de los ciudadanos extranjeros. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 246.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 287.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 465.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3825",
+    "Nombre": "Total Nacional. Dato base. Ordenación del territorio, urbanismo, protección del patrimonio histórico y medio ambiente. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1269.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1179.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1241.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3824",
+    "Nombre": "Total Nacional. Dato base. Ordenación del territorio y el urbanismo. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 402.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 369.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 367.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3823",
+    "Nombre": "Total Nacional. Dato base. Patrimonio histórico. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 29.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 45.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 34.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3822",
+    "Nombre": "Total Nacional. Dato base. Recursos naturales y medio ambiente. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 51.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 52.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 57.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3821",
+    "Nombre": "Total Nacional. Dato base. Protección de flora, fauna y animales domésticos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 787.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 713.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 783.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3820",
+    "Nombre": "Total Nacional. Dato base. Contra la seguridad colectiva. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 116580.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 111299.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 120682.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3819",
+    "Nombre": "Total Nacional. Dato base. Delitos de riesgo catastrófico. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 15.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 18.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 11.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3818",
+    "Nombre": "Total Nacional. Dato base. Incendios. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 184.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 159.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 181.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3817",
+    "Nombre": "Total Nacional. Dato base. Contra la salud pública. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 13386.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 11941.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 13094.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3816",
+    "Nombre": "Total Nacional. Dato base. Contra la seguridad vial. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 102995.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 99181.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 107396.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3815",
+    "Nombre": "Total Nacional. Dato base. Falsedades. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6776.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 6040.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 7292.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3814",
+    "Nombre": "Total Nacional. Dato base. Falsificación de moneda y efectos timbrados. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 150.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 120.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 144.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3813",
+    "Nombre": "Total Nacional. Dato base. Falsedades documentales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6389.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5721.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 6920.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3812",
+    "Nombre": "Total Nacional. Dato base. Fabricación o tenencia de útiles para falsificación. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 72.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 53.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 26.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3811",
+    "Nombre": "Total Nacional. Dato base. Usurpación del estado civil. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 69.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 72.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 92.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3810",
+    "Nombre": "Total Nacional. Dato base. Usurpación de funciones públicas. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 96.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 74.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 110.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3809",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración Pública. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 457.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 518.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1311.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3808",
+    "Nombre": "Total Nacional. Dato base. Prevaricación de los funcionarios públicos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 68.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 113.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 129.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3807",
+    "Nombre": "Total Nacional. Dato base. Abandono destino. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 8.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3806",
+    "Nombre": "Total Nacional. Dato base. Desobediencia y denegación auxilio. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 228.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 222.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 961.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3805",
+    "Nombre": "Total Nacional. Dato base. Infidelidad custodia documentos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 12.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 13.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3804",
+    "Nombre": "Total Nacional. Dato base. Cohecho. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 41.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 49.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 55.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3803",
+    "Nombre": "Total Nacional. Dato base. Tráfico influencias. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 10.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 7.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3802",
+    "Nombre": "Total Nacional. Dato base. Malversación. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 75.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 78.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 82.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3801",
+    "Nombre": "Total Nacional. Dato base. Fraudes y exacciones ilegales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 15.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 26.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 44.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3800",
+    "Nombre": "Total Nacional. Dato base. Negociaciones prohibidas a los funcionarios. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 10.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 12.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3799",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración de Justicia. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 25685.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 22248.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 21448.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3798",
+    "Nombre": "Total Nacional. Dato base. Prevaricación. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 7.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3797",
+    "Nombre": "Total Nacional. Dato base. Omisión de los deberes de impedir delitos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 4.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 7.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 3.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3796",
+    "Nombre": "Total Nacional. Dato base. Encubrimiento. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 41.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 33.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 45.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3795",
+    "Nombre": "Total Nacional. Dato base. Realización arbitraria del propio derecho. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 116.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 101.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 138.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3794",
+    "Nombre": "Total Nacional. Dato base. Acusación y denuncia falsas y simulación de delitos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 527.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 543.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 814.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3793",
+    "Nombre": "Total Nacional. Dato base. Falso testimonio. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 249.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 239.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 315.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3792",
+    "Nombre": "Total Nacional. Dato base. Obstrucción a la justicia. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 304.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 289.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 313.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3791",
+    "Nombre": "Total Nacional. Dato base. Quebrantamiento de condena. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 24432.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 21024.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 19798.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3790",
+    "Nombre": "Total Nacional. Dato base. Contra la Administración de Justicia de la Corte Penal Internacional. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 8.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 11.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 15.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3789",
+    "Nombre": "Total Nacional. Dato base. Contra la Constitución. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 335.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 260.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 373.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3788",
+    "Nombre": "Total Nacional. Dato base. Rebelión. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": []
+  },
+  {
+    "COD": "CON3787",
+    "Nombre": "Total Nacional. Dato base. Contra la Corona. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 3.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 6.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 3.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3786",
+    "Nombre": "Total Nacional. Dato base. Contra las Instituciones del Estado. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 16.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 17.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 48.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3785",
+    "Nombre": "Total Nacional. Dato base. Ejercicio de los derechos fundamentales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 310.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 234.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 311.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3784",
+    "Nombre": "Total Nacional. Dato base. Cometidos por funcionarios contra libertad individual. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 6.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3783",
+    "Nombre": "Total Nacional. Dato base. Ultrajes a España. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 5.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3782",
+    "Nombre": "Total Nacional. Dato base. Contra el orden público. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 20411.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 17850.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 18264.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON32451",
+    "Nombre": "Total Nacional. Dato base. Sedición. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": []
+  },
+  {
+    "COD": "CON3781",
+    "Nombre": "Total Nacional. Dato base. Atentados contra la autoridad y de la resistencia y desobediencia. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 17994.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 15604.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 15948.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3780",
+    "Nombre": "Total Nacional. Dato base. Desórdenes públicos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 224.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 156.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 190.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3779",
+    "Nombre": "Total Nacional. Dato base. Tenencia, tráfico, depósito de armas y explosivos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 855.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 818.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 925.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3778",
+    "Nombre": "Total Nacional. Dato base. Organizaciones y grupos criminales. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1295.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1253.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 1165.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3777",
+    "Nombre": "Total Nacional. Dato base. Organizaciones y grupos terroristas y delitos de terrorismo. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 43.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 19.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 36.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3776",
+    "Nombre": "Total Nacional. Dato base. Traición, contra la paz y defensa nacional. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 6.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 6.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3775",
+    "Nombre": "Total Nacional. Dato base. Traición. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 1.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3774",
+    "Nombre": "Total Nacional. Dato base. Que comprometen la paz o independencia del Estado. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 5.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 5.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 6.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3773",
+    "Nombre": "Total Nacional. Dato base. Descubrimiento y revelación de secretos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": []
+  },
+  {
+    "COD": "CON3772",
+    "Nombre": "Total Nacional. Dato base. Contra la Comunidad Internacional. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 4.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 11.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON32449",
+    "Nombre": "Total Nacional. Dato base. Contra el derecho de gentes. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 2.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 3.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3771",
+    "Nombre": "Total Nacional. Dato base. Genocidio. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": []
+  },
+  {
+    "COD": "CON32450",
+    "Nombre": "Total Nacional. Dato base. Lesa humanidad. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 2.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3770",
+    "Nombre": "Total Nacional. Dato base. Contra las personas y bienes protegidos. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 1.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 6.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3769",
+    "Nombre": "Total Nacional. Dato base. Ley Orgánica de Represión del Contrabando. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 280.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 187.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 360.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON3768",
+    "Nombre": "Total Nacional. Dato base. Ley Orgánica del Régimen Electoral General. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 188.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1672527600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2023,
+        "Valor": 63.0,
+        "Secreto": false
+      },
+      {
+        "Fecha": 1640991600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2022,
+        "Valor": 142.0,
+        "Secreto": false
+      }
+    ]
+  },
+  {
+    "COD": "CON42857",
+    "Nombre": "Total Nacional. Dato base. Ley Penal y Procesal de la Navegación aérea. ",
+    "FK_Unidad": 321,
+    "FK_Escala": 1,
+    "Data": [
+      {
+        "Fecha": 1704063600000,
+        "FK_TipoDato": 1,
+        "FK_Periodo": 28,
+        "Anyo": 2024,
+        "Valor": 15.0,
+        "Secreto": false
+      }
+    ]
+  }
+]

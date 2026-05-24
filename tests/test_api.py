@@ -1,0 +1,131 @@
+"""Tests de la API FastAPI con TestClient + respx para mockear el INE."""
+
+from __future__ import annotations
+
+from collections.abc import Iterator
+from typing import Any
+
+import httpx
+import pytest
+import respx
+from fastapi.testclient import TestClient
+
+from open_data_hub.api import _load_dataset_view, app
+
+BASE = "https://servicios.ine.es/wstempus/js/ES"
+
+
+@pytest.fixture
+def client() -> TestClient:
+    return TestClient(app)
+
+
+@pytest.fixture(autouse=True)
+def _clear_view_cache() -> Iterator[None]:
+    """El endpoint usa lru_cache; limpiamos entre tests para evitar contaminación."""
+    _load_dataset_view.cache_clear()
+    yield
+    _load_dataset_view.cache_clear()
+
+
+def test_health(client: TestClient) -> None:
+    response = client.get("/api/health")
+    assert response.status_code == 200
+    assert response.json() == {"status": "ok"}
+
+
+def test_list_countries_shape(client: TestClient) -> None:
+    response = client.get("/api/countries")
+    assert response.status_code == 200
+    payload = response.json()
+    assert isinstance(payload, list)
+    es = next(c for c in payload if c["code"] == "es")
+    assert es["name"] == "España"
+    assert es["flag"] == "🇪🇸"
+    keys = {d["key"] for d in es["datasets"]}
+    assert {"crime", "prices", "labor", "demography"} <= keys
+
+
+def test_list_datasets_is_flat(client: TestClient) -> None:
+    response = client.get("/api/datasets")
+    assert response.status_code == 200
+    payload = response.json()
+    required = {"country_code", "country_name", "key", "label"}
+    assert all(required <= set(item) for item in payload)
+    crime = next(
+        item for item in payload if item["country_code"] == "es" and item["key"] == "crime"
+    )
+    assert crime["source_name"] == "INE"
+
+
+def test_views_for_known_dataset(client: TestClient) -> None:
+    response = client.get("/api/datasets/es/crime/views")
+    assert response.status_code == 200
+    views = response.json()
+    keys = {v["key"] for v in views}
+    assert "offenses-by-type" in keys
+    assert "offenses-by-sex" in keys
+
+
+def test_unknown_country_returns_404(client: TestClient) -> None:
+    response = client.get("/api/datasets/xx/crime/views")
+    assert response.status_code == 404
+    assert "País" in response.json()["detail"]
+
+
+def test_unknown_dataset_returns_404(client: TestClient) -> None:
+    response = client.get("/api/datasets/es/unknown/views")
+    assert response.status_code == 404
+    assert "Dataset" in response.json()["detail"]
+
+
+def test_unknown_view_returns_404(client: TestClient) -> None:
+    response = client.get("/api/datasets/es/crime/views/unknown-view")
+    assert response.status_code == 404
+    assert "Vista" in response.json()["detail"]
+
+
+def test_nult_bounds_validated(client: TestClient) -> None:
+    too_low = client.get("/api/datasets/es/crime/views/offenses-by-type?nult=1")
+    too_high = client.get("/api/datasets/es/crime/views/offenses-by-type?nult=99")
+    assert too_low.status_code == 422
+    assert too_high.status_code == 422
+
+
+@respx.mock
+def test_get_view_returns_records(
+    client: TestClient, ine_crime_25997: list[dict[str, Any]]
+) -> None:
+    respx.get(f"{BASE}/DATOS_TABLA/25997").mock(
+        return_value=httpx.Response(200, json=ine_crime_25997)
+    )
+    response = client.get("/api/datasets/es/crime/views/offenses-by-type?nult=3")
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["view"]["key"] == "offenses-by-type"
+    assert payload["view"]["category_col"] == "offense_type"
+    assert "metric" in payload["view"]["filter_cols"]
+    assert len(payload["records"]) > 0
+
+    sample = payload["records"][0]
+    assert {"year", "value", "scope", "metric", "offense_type"} <= set(sample.keys())
+    assert sample["value"] is None or isinstance(sample["value"], (int, float))
+
+
+@respx.mock
+def test_legacy_crime_endpoints_match_generic(
+    client: TestClient, ine_crime_25997: list[dict[str, Any]]
+) -> None:
+    respx.get(f"{BASE}/DATOS_TABLA/25997").mock(
+        return_value=httpx.Response(200, json=ine_crime_25997)
+    )
+    legacy = client.get("/api/crime/views/offenses-by-type?nult=3")
+    assert legacy.status_code == 200
+    assert legacy.json()["view"]["key"] == "offenses-by-type"
+
+
+def test_legacy_list_crime_views(client: TestClient) -> None:
+    response = client.get("/api/crime/views")
+    assert response.status_code == 200
+    keys = {v["key"] for v in response.json()}
+    assert "offenses-by-type" in keys
